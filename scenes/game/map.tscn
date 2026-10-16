@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://c1mwdlsnjl5x1"]
+
+[ext_resource type="Texture2D" uid="uid://cc7t7fg1hwie" path="res://assets/images/BaseMap.jpg" id="1_3fewy"]
+[ext_resource type="Texture2D" uid="uid://chxen14n0i0h2" path="res://assets/images/Lock.png" id="2_043wi"]
+
+[node name="Map" type="Node2D" unique_id=79486551]
+
+[node name="Background" type="TextureRect" parent="." unique_id=1889400245]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BaseMap" type="Sprite2D" parent="." unique_id=525429554]
+position = Vector2(572.375, 325.75)
+scale = Vector2(0.84340656, 0.8522136)
+texture = ExtResource("1_3fewy")
+
+[node name="Lock1" type="TextureButton" parent="." unique_id=632857058]
+offset_left = 575.99994
+offset_top = 98.0
+offset_right = 1057.0
+offset_bottom = 617.0
+rotation = 0.18391688
+scale = Vector2(0.45946068, 0.4910486)
+texture_normal = ExtResource("2_043wi")
+
+[node name="Lock2" type="TextureButton" parent="." unique_id=1721249122]
+offset_left = 130.99998
+offset_top = 75.0
+offset_right = 612.0
+offset_bottom = 594.0
+rotation = -0.16600928
+scale = Vector2(0.45892352, 0.4467005)
+texture_normal = ExtResource("2_043wi")
+
+[node name="Lock3" type="TextureButton" parent="." unique_id=1457773825]
+offset_left = 788.0
+offset_top = 244.0
+offset_right = 1269.0
+offset_bottom = 763.0
+rotation = 0.04944637
+scale = Vector2(0.5121958, 0.48302475)
+texture_normal = ExtResource("2_043wi")
