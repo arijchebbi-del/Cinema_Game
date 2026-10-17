@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://b2c6n148ars7j"]
+
+[ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://assets/images/Level1/Level1_Background.png" id="1_lif40"]
+[ext_resource type="PackedScene" uid="uid://bg8aqfseg7k2i" path="res://scenes/game/level1/actor_game.tscn" id="2_kggjg"]
+[ext_resource type="PackedScene" uid="uid://drnfuterb7s0j" path="res://scenes/game/level1/director_game.tscn" id="3_tmehf"]
+
+[node name="Level1" type="Node2D" unique_id=1194337992]
+
+[node name="Background" type="TextureRect" parent="." unique_id=1114855077]
+offset_left = -3.0000005
+offset_top = 644.0
+offset_right = 1149.0
+offset_bottom = 2692.0
+rotation = -1.5650071
+scale = Vector2(0.55938894, 0.5645928)
+texture = ExtResource("1_lif40")
+
+[node name="ChoiceScreen" type="Control" parent="." unique_id=710608875]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(0.6612995, 0.46724865)
+
+[node name="Title" type="Label" parent="ChoiceScreen" unique_id=1712775771]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ButtonsBox" type="HBoxContainer" parent="ChoiceScreen" unique_id=1272331409]
+propagate_maximum_size = false
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -46.0
+offset_top = -15.5
+offset_right = 46.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="ActorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=227531035]
+layout_mode = 2
+button_mask = 0
+text = "Actor"
+text_direction = 3
+
+[node name="DirectorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=521367915]
+layout_mode = 2
+text = "Director"
+
+[node name="ActorGame" parent="." unique_id=829493278 instance=ExtResource("2_kggjg")]
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="DirectorGame" parent="." unique_id=329720193 instance=ExtResource("3_tmehf")]
+
+[node name="CompleteScreen" type="Control" parent="." unique_id=1861093225]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ContinueButton" type="Button" parent="CompleteScreen" unique_id=1545667251]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="CompleteLabel" type="Label" parent="CompleteScreen" unique_id=1712564679]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ResultImage" type="TextureRect" parent="CompleteScreen" unique_id=1204457686]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BackButton" type="Button" parent="." unique_id=550941251]
+offset_right = 8.0
+offset_bottom = 8.0

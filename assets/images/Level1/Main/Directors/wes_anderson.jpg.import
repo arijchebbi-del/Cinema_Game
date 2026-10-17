@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://76thw162sfh2"
-path="res://.godot/imported/Unlock.png-be5ed3dd71bd22b778663a7bed6c618d.ctex"
+uid="uid://bxpa7jny1lsrn"
+path="res://.godot/imported/wes_anderson.jpg-ad48118f82791656608ffa85d227ea1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Unlock.png"
-dest_files=["res://.godot/imported/Unlock.png-be5ed3dd71bd22b778663a7bed6c618d.ctex"]
+source_file="res://assets/images/Level1/Main/Directors/wes_anderson.jpg"
+dest_files=["res://.godot/imported/wes_anderson.jpg-ad48118f82791656608ffa85d227ea1a.ctex"]
 
 [params]
 

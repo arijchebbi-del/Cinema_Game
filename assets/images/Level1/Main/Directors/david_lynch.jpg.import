@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chxen14n0i0h2"
-path="res://.godot/imported/Lock.png-46e2938a89b66533e7a918868ab9f10a.ctex"
+uid="uid://bwoimu0gjao52"
+path="res://.godot/imported/david_lynch.jpg-4c00da9e3684f67452b7397a0c8c9abb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Lock.png"
-dest_files=["res://.godot/imported/Lock.png-46e2938a89b66533e7a918868ab9f10a.ctex"]
+source_file="res://assets/images/Level1/Main/Directors/david_lynch.jpg"
+dest_files=["res://.godot/imported/david_lynch.jpg-4c00da9e3684f67452b7397a0c8c9abb.ctex"]
 
 [params]
 
