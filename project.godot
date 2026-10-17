@@ -13,10 +13,11 @@ config_version=5
 config/name="Cinema_Mini_Game"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
+<<<<<<<HEADconfig/features=PackedStringArray("4.5", "GL Compatibility")
 
 [autoload]
 
-Global="*res://Scripts/Global.gd"
+Global="*res://scripts/Global.gd"
 
 [display]
 

@@ -3,15 +3,24 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://76thw162sfh2"
+<<<<<<< HEAD:assets/images/Unlock.png.import
 path="res://.godot/imported/Unlock.png-eafc09064b41efcb3567419bb6377e06.ctex"
+=======
+path="res://.godot/imported/Unlock.png-9ab58ca39a37306e5d8589201ae12635.ctex"
+>>>>>>> a57b0876f664553f83db2c858cf1b50ca323e5a7:assets/images/MapScene/Unlock.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< HEAD:assets/images/Unlock.png.import
 source_file="res://Assets/images/Unlock.png"
 dest_files=["res://.godot/imported/Unlock.png-eafc09064b41efcb3567419bb6377e06.ctex"]
+=======
+source_file="res://assets/images/MapScene/Unlock.png"
+dest_files=["res://.godot/imported/Unlock.png-9ab58ca39a37306e5d8589201ae12635.ctex"]
+>>>>>>> a57b0876f664553f83db2c858cf1b50ca323e5a7:assets/images/MapScene/Unlock.png.import
 
 [params]
 

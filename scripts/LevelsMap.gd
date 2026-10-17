@@ -80,10 +80,10 @@ func _on_game_won(_game_name: String):
 	update_game_select_display()
 
 func _on_GuessMovieButton_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scenes/GuessMovie.tscn")
+	get_tree().change_scene_to_file("res://scenes/GuessMovie.tscn")
 
 func _on_MovieQuestionsButton_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scenes/MovieQuestions.tscn")
+	get_tree().change_scene_to_file("res://scenes/MovieQuestions.tscn")
 
 func _on_ActorDirectorButton_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scenes/ActorDirector.tscn")
+	get_tree().change_scene_to_file("res://scenes/ActorDirector.tscn")

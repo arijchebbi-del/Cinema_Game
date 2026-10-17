@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc7t7fg1hwie"
-path="res://.godot/imported/BaseMap.jpg-878d62d6920eb9c4a785b7b5dff8ad8a.ctex"
+uid="uid://8t051wtc5h3h"
+path="res://.godot/imported/robin_williams.jpg-bcc4a58f959be8369a090ceb504adc51.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/BaseMap.jpg"
-dest_files=["res://.godot/imported/BaseMap.jpg-878d62d6920eb9c4a785b7b5dff8ad8a.ctex"]
+source_file="res://Assets/images/Level1/Main/Actors/robin_williams.jpg"
+dest_files=["res://.godot/imported/robin_williams.jpg-bcc4a58f959be8369a090ceb504adc51.ctex"]
 
 [params]
 

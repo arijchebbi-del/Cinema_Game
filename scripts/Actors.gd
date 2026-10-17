@@ -78,7 +78,7 @@ func check_win():
 		$NextButton.show()
 	else:
 		Global.game_lost.emit()
-		get_tree().change_scene_to_file("res://Scenes/Result.tscn")
+		get_tree().change_scene_to_file("res://scenes/Result.tscn")
 		
 func update_background():
 	# Hide ALL backgrounds first

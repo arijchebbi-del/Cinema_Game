@@ -23,7 +23,7 @@ func _ready():
 
 func _on_RestartButton_pressed():
 	Global.reset_game()
-	get_tree().change_scene_to_file("res://Scenes/StartingPoint.tscn")
+	get_tree().change_scene_to_file("res://scenes/StartingPoint.tscn")
 
 func _input(event):
 	if event.is_action_pressed("ui_enter"):
