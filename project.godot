@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Cinema_Mini_Game"
+run/main_scene="uid://csw51jawpyr0m"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
