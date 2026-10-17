@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://chxen14n0i0h2"
-<<<<<<< HEAD:assets/images/Lock.png.import
-path="res://.godot/imported/Lock.png-b988e454343878bcb395bc7fa0a7652e.ctex"
-=======
+uid="uid://c5gr1cdd0lpba"
 path="res://.godot/imported/Lock.png-065fbde851a4eb8e8191ce8becf63390.ctex"
->>>>>>> a57b0876f664553f83db2c858cf1b50ca323e5a7:assets/images/MapScene/Lock.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< HEAD:assets/images/Lock.png.import
-source_file="res://Assets/images/Lock.png"
-dest_files=["res://.godot/imported/Lock.png-b988e454343878bcb395bc7fa0a7652e.ctex"]
-=======
 source_file="res://assets/images/MapScene/Lock.png"
 dest_files=["res://.godot/imported/Lock.png-065fbde851a4eb8e8191ce8becf63390.ctex"]
->>>>>>> a57b0876f664553f83db2c858cf1b50ca323e5a7:assets/images/MapScene/Lock.png.import
 
 [params]
 
