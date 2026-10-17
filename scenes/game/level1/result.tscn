@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bo0v62un24xw0"]
+
+[node name="Result" type="Node2D" unique_id=148751940]
+
+[node name="Background" type="TextureRect" parent="." unique_id=1968427572]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ResultLabel" type="Label" parent="." unique_id=590169242]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="RetryButton" type="Button" parent="." unique_id=2019947085]
+offset_right = 8.0
+offset_bottom = 8.0
