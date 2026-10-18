@@ -1,0 +1,116 @@
+[gd_scene format=3 uid="uid://co0hhrs4pxko0"]
+
+[ext_resource type="Texture2D" uid="uid://bm4j4n7wbmbi0" path="res://assets/images/level 2/level 2.jpeg" id="1_7tpvq"]
+[ext_resource type="Texture2D" uid="uid://dglps12x62los" path="res://assets/images/level 2/@julietteshere🐬.jpg" id="2_qqhp7"]
+[ext_resource type="Texture2D" uid="uid://cp8fwf0m0cjfb" path="res://assets/images/level 2/500 Days of Summer.jpg" id="3_24w6f"]
+[ext_resource type="Texture2D" uid="uid://blo3h4imy7jm0" path="res://assets/images/level 2/800163058805697764.jpg" id="4_edh68"]
+[ext_resource type="Texture2D" uid="uid://mh3lsmepgcxw" path="res://assets/images/level 2/When Harry Met Sally (1).jpg" id="5_ubxlj"]
+[ext_resource type="Texture2D" uid="uid://d2he05q4tqw05" path="res://assets/images/level 2/820710732114283075.jpg" id="6_kukaj"]
+[ext_resource type="Texture2D" uid="uid://cwjntjlh4jlg1" path="res://assets/images/level 2/Poster from the film Fight Club.jpg" id="7_tg4rr"]
+[ext_resource type="Texture2D" uid="uid://cq3ljjj4jqbka" path="res://assets/images/level 2/Eternal Sunshine of the Spotless Mind.jpg" id="8_ojswc"]
+[ext_resource type="Texture2D" uid="uid://chtgcq8128jml" path="res://assets/images/level 2/12 Angry Men (1957) Dir_ Sidney Lumet.jpg" id="9_7ldp0"]
+
+[node name="Control" type="Control" unique_id=862223145]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=839877560]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = 5.0
+offset_right = 2.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_7tpvq")
+expand_mode = 1
+
+[node name="poster1" type="TextureButton" parent="." unique_id=1946148299]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.017
+anchor_bottom = 0.031000001
+offset_left = 129.0
+offset_top = 145.0
+offset_right = 241.416
+offset_bottom = 327.912
+texture_normal = ExtResource("2_qqhp7")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="poster2" type="TextureButton" parent="." unique_id=2107934693]
+layout_mode = 0
+offset_left = 347.0
+offset_top = 157.0
+offset_right = 479.0
+offset_bottom = 360.0
+texture_normal = ExtResource("3_24w6f")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="poster3" type="TextureButton" parent="." unique_id=1828550342]
+layout_mode = 0
+offset_left = 573.0
+offset_top = 147.0
+offset_right = 705.0
+offset_bottom = 350.0
+texture_normal = ExtResource("4_edh68")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="poster4" type="TextureButton" parent="." unique_id=1499313284]
+layout_mode = 0
+offset_left = 808.0
+offset_top = 379.0
+offset_right = 940.0
+offset_bottom = 582.0
+texture_normal = ExtResource("5_ubxlj")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="poster5" type="TextureButton" parent="." unique_id=649290327]
+layout_mode = 0
+offset_left = 809.0
+offset_top = 153.0
+offset_right = 941.0
+offset_bottom = 356.0
+texture_normal = ExtResource("6_kukaj")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="poster6" type="TextureButton" parent="." unique_id=1563364784]
+layout_mode = 0
+offset_left = 578.0
+offset_top = 374.0
+offset_right = 710.0
+offset_bottom = 577.0
+texture_normal = ExtResource("7_tg4rr")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="poster7" type="TextureButton" parent="." unique_id=371477466]
+layout_mode = 0
+offset_left = 350.0
+offset_top = 378.0
+offset_right = 482.0
+offset_bottom = 581.0
+texture_normal = ExtResource("8_ojswc")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="poster8" type="TextureButton" parent="." unique_id=85840402]
+layout_mode = 0
+offset_left = 130.0
+offset_top = 374.0
+offset_right = 262.0
+offset_bottom = 577.0
+texture_normal = ExtResource("9_7ldp0")
+ignore_texture_size = true
+stretch_mode = 0
