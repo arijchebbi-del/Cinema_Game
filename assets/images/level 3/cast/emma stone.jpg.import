@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://borysd2fd2dy3"
-path="res://.godot/imported/emma stone.jpg-3eb825951a412a738d1160829ce04ac8.ctex"
+path="res://.godot/imported/emma stone.jpg-9eace027bbb6712c4ef7542de0fc903d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/emma stone.jpg"
-dest_files=["res://.godot/imported/emma stone.jpg-3eb825951a412a738d1160829ce04ac8.ctex"]
+source_file="res://assets/images/level 3/cast/emma stone.jpg"
+dest_files=["res://.godot/imported/emma stone.jpg-9eace027bbb6712c4ef7542de0fc903d.ctex"]
 
 [params]
 

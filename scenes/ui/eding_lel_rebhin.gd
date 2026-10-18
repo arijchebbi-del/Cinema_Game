@@ -6,7 +6,7 @@ extends Control
 @onready var button = $Button
 @onready var points_label = $points
 
-var points = 0
+var points = ""
 
 func _ready():
 	photo.hide()
