@@ -1,4 +1,4 @@
-[gd_scene load_steps=0 format=3 uid="uid://bi4yf7klmfrt7"]
+[gd_scene format=3 uid="uid://bi4yf7klmfrt7"]
 
 [ext_resource type="Script" uid="uid://dy2khra31q34u" path="res://scenes/ui/ending_lel_khesrin.gd" id="1_gx37r"]
 [ext_resource type="VideoStream" uid="uid://bdsunus4c3sgl" path="res://assets/videos/interface-el-losers.ogv" id="1_r6wl7"]
