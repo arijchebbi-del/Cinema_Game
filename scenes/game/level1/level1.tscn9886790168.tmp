@@ -1,0 +1,103 @@
+[gd_scene format=3 uid="uid://b2c6n148ars7j"]
+
+[ext_resource type="Script" uid="uid://ba08wp1ic0nk2" path="res://scripts/ActorDirector.gd" id="1_kggjg"]
+[ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://assets/images/Level1/Level1_Background.png" id="1_lif40"]
+[ext_resource type="PackedScene" uid="uid://bg8aqfseg7k2i" path="res://scenes/game/level1/actor_game.tscn" id="2_kggjg"]
+[ext_resource type="PackedScene" uid="uid://drnfuterb7s0j" path="res://scenes/game/level1/director_game.tscn" id="3_tmehf"]
+[ext_resource type="Texture2D" uid="uid://dfcsfy27qgq2u" path="res://assets/images/Level1/title.png" id="3_uivtq"]
+[ext_resource type="Texture2D" uid="uid://cqe75t0yvbg35" path="res://assets/images/Level1/actorButton.png" id="4_s235x"]
+[ext_resource type="Texture2D" uid="uid://bjaljbfyd6ijw" path="res://assets/images/Level1/directorButton.png" id="5_xi66c"]
+
+[node name="Level1" type="Node2D" unique_id=321186699]
+script = ExtResource("1_kggjg")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1764292264]
+offset_left = -3.0000005
+offset_top = 644.0
+offset_right = 1149.0
+offset_bottom = 2692.0
+rotation = -1.5650071
+scale = Vector2(0.55938894, 0.5645928)
+texture = ExtResource("1_lif40")
+expand_mode = 1
+
+[node name="ChoiceScreen" type="Control" parent="." unique_id=2107967145]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.6612995, 0.46724865)
+
+[node name="Title" type="TextureRect" parent="ChoiceScreen" unique_id=1492472820]
+layout_mode = 0
+offset_left = 37.80435
+offset_top = -235.4207
+offset_right = 1748.0731
+offset_bottom = 1513.1129
+rotation = 0.031233154
+texture = ExtResource("3_uivtq")
+
+[node name="ButtonsBox" type="HBoxContainer" parent="ChoiceScreen" unique_id=577018940]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 492.96872
+offset_top = 954.5239
+offset_right = 1942.9688
+offset_bottom = 1293.5239
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.48978004, 0.6616329)
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="ActorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=675600708]
+custom_minimum_size = Vector2(320, 130)
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+button_mask = 0
+icon = ExtResource("4_s235x")
+flat = true
+text_direction = 3
+
+[node name="DirectorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=570152369]
+custom_minimum_size = Vector2(320, 130)
+layout_mode = 2
+theme_override_font_sizes/font_size = 45
+icon = ExtResource("5_xi66c")
+flat = true
+
+[node name="ActorGame" parent="." unique_id=153928287 instance=ExtResource("2_kggjg")]
+visible = false
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="DirectorGame" parent="." unique_id=80758363 instance=ExtResource("3_tmehf")]
+visible = false
+
+[node name="CompleteScreen" type="Control" parent="." unique_id=19404260]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ContinueButton" type="Button" parent="CompleteScreen" unique_id=1701154275]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="CompleteLabel" type="Label" parent="CompleteScreen" unique_id=784469161]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ResultImage" type="TextureRect" parent="CompleteScreen" unique_id=26048048]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BackButton" type="Button" parent="." unique_id=1175676172]
+offset_right = 8.0
+offset_bottom = 8.0

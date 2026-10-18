@@ -1,14 +1,25 @@
-[gd_scene load_steps=5 format=3 uid="uid://b2c6n148ars7j"]
+[gd_scene format=3 uid="uid://b2c6n148ars7j"]
 
 [ext_resource type="Script" uid="uid://ba08wp1ic0nk2" path="res://scripts/ActorDirector.gd" id="1_kggjg"]
-[ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://Assets/images/Level1/Level1_Background.png" id="1_lif40"]
+[ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://assets/images/Level1/Level1_Background.png" id="1_lif40"]
 [ext_resource type="PackedScene" uid="uid://bg8aqfseg7k2i" path="res://scenes/game/level1/actor_game.tscn" id="2_kggjg"]
 [ext_resource type="PackedScene" uid="uid://drnfuterb7s0j" path="res://scenes/game/level1/director_game.tscn" id="3_tmehf"]
 
-[node name="Level1" type="Node2D"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kggjg"]
+bg_color = Color(0.3137255, 0.3137255, 0.3137255, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[node name="Level1" type="Node2D" unique_id=321186699]
 script = ExtResource("1_kggjg")
 
-[node name="Background" type="TextureRect" parent="."]
+[node name="Background" type="TextureRect" parent="." unique_id=1764292264]
 offset_left = -3.0000005
 offset_top = 644.0
 offset_right = 1149.0
@@ -16,70 +27,82 @@ offset_bottom = 2692.0
 rotation = -1.5650071
 scale = Vector2(0.55938894, 0.5645928)
 texture = ExtResource("1_lif40")
+expand_mode = 1
 
-[node name="ChoiceScreen" type="Control" parent="."]
+[node name="ChoiceScreen" type="Control" parent="." unique_id=2107967145]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 scale = Vector2(0.6612995, 0.46724865)
 
-[node name="Title" type="Label" parent="ChoiceScreen"]
+[node name="Title" type="Label" parent="ChoiceScreen" unique_id=1942124145]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = 427.94525
+offset_top = 44.943954
+offset_right = 1377.5905
+offset_bottom = 830.39294
+text = "Choose "
+horizontal_alignment = 1
 
-[node name="ButtonsBox" type="HBoxContainer" parent="ChoiceScreen"]
+[node name="ButtonsBox" type="HBoxContainer" parent="ChoiceScreen" unique_id=577018940]
 layout_mode = 1
-anchors_preset = 14
-anchor_top = 0.5
-anchor_right = 1.0
-anchor_bottom = 0.5
-offset_left = -46.0
-offset_top = -15.5
-offset_right = 46.0
-offset_bottom = 15.5
+anchors_preset = -1
+offset_left = 474.82266
+offset_top = 967.36505
+offset_right = 1244.5192
+offset_bottom = 1172.823
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 10
 alignment = 1
 
-[node name="ActorButton" type="Button" parent="ChoiceScreen/ButtonsBox"]
+[node name="ActorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=675600708]
+custom_minimum_size = Vector2(320, 130)
 layout_mode = 2
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_kggjg")
 button_mask = 0
 text = "Actor"
 text_direction = 3
 
-[node name="DirectorButton" type="Button" parent="ChoiceScreen/ButtonsBox"]
+[node name="DirectorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=570152369]
+custom_minimum_size = Vector2(320, 130)
 layout_mode = 2
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_kggjg")
 text = "Director"
 
-[node name="ActorGame" parent="." instance=ExtResource("2_kggjg")]
+[node name="ActorGame" parent="." unique_id=153928287 instance=ExtResource("2_kggjg")]
+visible = false
 scale = Vector2(0.99999994, 0.99999994)
 
-[node name="DirectorGame" parent="." instance=ExtResource("3_tmehf")]
+[node name="DirectorGame" parent="." unique_id=80758363 instance=ExtResource("3_tmehf")]
+visible = false
 
-[node name="CompleteScreen" type="Control" parent="."]
+[node name="CompleteScreen" type="Control" parent="." unique_id=19404260]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="ContinueButton" type="Button" parent="CompleteScreen"]
+[node name="ContinueButton" type="Button" parent="CompleteScreen" unique_id=1701154275]
 layout_mode = 0
 offset_right = 8.0
 offset_bottom = 8.0
 
-[node name="CompleteLabel" type="Label" parent="CompleteScreen"]
+[node name="CompleteLabel" type="Label" parent="CompleteScreen" unique_id=784469161]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="ResultImage" type="TextureRect" parent="CompleteScreen"]
+[node name="ResultImage" type="TextureRect" parent="CompleteScreen" unique_id=26048048]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="BackButton" type="Button" parent="."]
+[node name="BackButton" type="Button" parent="." unique_id=1175676172]
 offset_right = 8.0
 offset_bottom = 8.0
