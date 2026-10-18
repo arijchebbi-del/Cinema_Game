@@ -1,12 +1,11 @@
-[gd_scene format=3 uid="uid://drnfuterb7s0j"]
+[gd_scene load_steps=10 format=3 uid="uid://drnfuterb7s0j"]
 
 [ext_resource type="Script" uid="uid://b3r0cc0jroo2d" path="res://scripts/Actors.gd" id="1_8apck"]
-[ext_resource type="Texture2D" uid="uid://bih3dwoconyb8" path="res://assets/images/Level1/Main/bg/bg0.png" id="1_57otq"]
-[ext_resource type="Texture2D" uid="uid://rnalcpye0nhd" path="res://assets/images/Level1/Main/bg/bg1.png" id="2_8apck"]
-[ext_resource type="Texture2D" uid="uid://c2sat5hlbbw8r" path="res://assets/images/Level1/Main/bg/bg2.png" id="3_ncih7"]
-[ext_resource type="Texture2D" uid="uid://cked81owt0pgs" path="res://assets/images/Level1/Main/bg/bg3.png" id="4_81rbm"]
-[ext_resource type="Texture2D" uid="uid://18wd7fsi6aiv" path="res://assets/images/Level1/Main/framefinal.png" id="7_jib3l"]
-[ext_resource type="Texture2D" uid="uid://bj3065s1wdh1a" path="res://assets/images/Level1/Buttons/nextButton.png" id="8_81rbm"]
+[ext_resource type="Texture2D" uid="uid://bih3dwoconyb8" path="res://Assets/images/Level1/Main/bg/bg0.png" id="1_57otq"]
+[ext_resource type="Texture2D" uid="uid://rnalcpye0nhd" path="res://Assets/images/Level1/Main/bg/bg1.png" id="2_8apck"]
+[ext_resource type="Texture2D" uid="uid://c2sat5hlbbw8r" path="res://Assets/images/Level1/Main/bg/bg2.png" id="3_ncih7"]
+[ext_resource type="Texture2D" uid="uid://cked81owt0pgs" path="res://Assets/images/Level1/Main/bg/bg3.png" id="4_81rbm"]
+[ext_resource type="Texture2D" uid="uid://18wd7fsi6aiv" path="res://Assets/images/Level1/Main/framefinal.png" id="7_jib3l"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2ncca"]
 bg_color = Color(0.7764706, 0.007843138, 0.015686275, 1)
@@ -26,25 +25,16 @@ corner_detail = 7
 subpixel_positioning = 0
 msdf_pixel_range = 14
 msdf_size = 128
-cache/0/variation_coordinates = {}
-cache/0/face_index = 0
-cache/0/embolden = 0.0
-cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
-cache/0/spacing_top = 0
-cache/0/spacing_bottom = 0
-cache/0/spacing_space = 0
-cache/0/spacing_glyph = 0
-cache/0/baseline_offset = 0.0
-cache/0/16/0/ascent = 0.0
-cache/0/16/0/descent = 0.0
-cache/0/16/0/underline_position = 0.0
-cache/0/16/0/underline_thickness = 0.0
-cache/0/16/0/scale = 1.0
 cache/0/24/0/ascent = 0.0
 cache/0/24/0/descent = 0.0
 cache/0/24/0/underline_position = 0.0
 cache/0/24/0/underline_thickness = 0.0
 cache/0/24/0/scale = 1.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_45om4"]
 bg_color = Color(0.90588236, 0.79607844, 0.7372549, 1)
@@ -57,10 +47,10 @@ corner_radius_top_right = 3
 corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 
-[node name="DirectorGame" type="Node2D" unique_id=1733340729]
+[node name="DirectorGame" type="Node2D"]
 script = ExtResource("1_8apck")
 
-[node name="bg0" type="TextureRect" parent="." unique_id=1796323707]
+[node name="bg0" type="TextureRect" parent="."]
 visible = false
 offset_top = 656.0
 offset_right = 1152.0
@@ -69,7 +59,7 @@ rotation = -1.5694361
 scale = Vector2(0.5710533, 0.559423)
 texture = ExtResource("1_57otq")
 
-[node name="bg1" type="TextureRect" parent="." unique_id=1168680557]
+[node name="bg1" type="TextureRect" parent="."]
 visible = false
 offset_top = 656.0
 offset_right = 1152.0
@@ -78,7 +68,7 @@ rotation = -1.5694361
 scale = Vector2(0.5710533, 0.559423)
 texture = ExtResource("2_8apck")
 
-[node name="bg2" type="TextureRect" parent="." unique_id=704677693]
+[node name="bg2" type="TextureRect" parent="."]
 offset_top = 656.0
 offset_right = 1152.0
 offset_bottom = 2704.0
@@ -86,7 +76,7 @@ rotation = -1.5694361
 scale = Vector2(0.5710533, 0.559423)
 texture = ExtResource("3_ncih7")
 
-[node name="bg3" type="TextureRect" parent="." unique_id=2132105754]
+[node name="bg3" type="TextureRect" parent="."]
 visible = false
 offset_top = 656.0
 offset_right = 1152.0
@@ -95,7 +85,7 @@ rotation = -1.5694361
 scale = Vector2(0.5710533, 0.559423)
 texture = ExtResource("4_81rbm")
 
-[node name="DirectorPic" type="TextureRect" parent="." unique_id=1489653380]
+[node name="DirectorPic" type="TextureRect" parent="."]
 offset_left = 391.0
 offset_top = 183.0
 offset_right = 438.17255
@@ -103,7 +93,7 @@ offset_bottom = 218.5888
 scale = Vector2(7.249981, 7.642852)
 expand_mode = 1
 
-[node name="Frame" type="TextureRect" parent="DirectorPic" unique_id=281689114]
+[node name="Frame" type="TextureRect" parent="DirectorPic"]
 layout_mode = 0
 offset_left = -0.8275871
 offset_top = -6.018696
@@ -112,7 +102,7 @@ offset_bottom = 38.46731
 texture = ExtResource("7_jib3l")
 expand_mode = 1
 
-[node name="ActorName" type="Label" parent="." unique_id=940163358]
+[node name="ActorName" type="Label" parent="."]
 offset_left = 389.0
 offset_top = 479.0
 offset_right = 743.0
@@ -121,7 +111,7 @@ theme_override_colors/font_color = Color(0.90588236, 0.64705884, 0.27450982, 1)
 theme_override_font_sizes/font_size = 17
 horizontal_alignment = 1
 
-[node name="GuessInput" type="LineEdit" parent="." unique_id=509567735]
+[node name="GuessInput" type="LineEdit" parent="."]
 offset_left = 348.0
 offset_top = 509.0
 offset_right = 788.0
@@ -131,7 +121,7 @@ theme_override_font_sizes/font_size = 22
 theme_override_styles/normal = SubResource("StyleBoxFlat_2ncca")
 placeholder_text = "Type a movie title..."
 
-[node name="TimerLabel" type="Label" parent="." unique_id=393444125]
+[node name="TimerLabel" type="Label" parent="."]
 offset_left = 757.0
 offset_top = 44.0
 offset_right = 902.0
@@ -143,9 +133,9 @@ text = "Time: 60"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Timer" type="Timer" parent="." unique_id=2004754482]
+[node name="Timer" type="Timer" parent="."]
 
-[node name="NextButton" type="Button" parent="." unique_id=544310247]
+[node name="NextButton" type="Button" parent="."]
 offset_left = 491.0
 offset_top = 575.0
 offset_right = 1471.0
@@ -154,5 +144,4 @@ scale = Vector2(0.1625063, 0.1584588)
 theme_override_colors/font_color = Color(0.25738513, 0.14775461, 0.069636874, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_45om4")
 text = "Next"
-icon = ExtResource("8_81rbm")
 flat = true
