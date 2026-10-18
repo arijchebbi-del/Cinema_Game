@@ -1,4 +1,112 @@
 [gd_scene format=3 uid="uid://c7pdtxxdxarow"]
 
-[node name="Questions" type="Node2D" unique_id=1571266651]
-position = Vector2(0, -2)
+[ext_resource type="Texture2D" uid="uid://dgqpxjhikhbg3" path="res://assets/images/level 2/WhatsApp Image 2026-10-18 at 01.24.16.jpeg" id="1_0udcr"]
+[ext_resource type="Script" uid="uid://sh7y542m7y4m" path="res://scenes/game/level 2/questions.gd" id="1_1xgvb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1xgvb"]
+bg_color = Color(0.39607844, 0.050980393, 0.105882354, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="FontFile" id="FontFile_m773h"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/46/0/ascent = 0.0
+cache/0/46/0/descent = 0.0
+cache/0/46/0/underline_position = 0.0
+cache/0/46/0/underline_thickness = 0.0
+cache/0/46/0/scale = 1.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nu21b"]
+bg_color = Color(0.39607844, 0.050980393, 0.105882354, 1)
+
+[node name="Control" type="Control" unique_id=1833530442]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1xgvb")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=604829326]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_0udcr")
+
+[node name="Button" type="Button" parent="." unique_id=1774928798]
+layout_mode = 0
+offset_left = 871.0
+offset_top = 503.0
+offset_right = 1131.0
+offset_bottom = 563.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0.8755697, 0.84097326, 0.8335572, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_1xgvb")
+text = "NEXT"
+
+[node name="question label" type="Label" parent="." unique_id=884606580]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 402.0
+offset_right = 859.0
+offset_bottom = 482.0
+theme_override_fonts/font = SubResource("FontFile_m773h")
+theme_override_font_sizes/font_size = 46
+
+[node name="answer" type="LineEdit" parent="." unique_id=542303768]
+layout_mode = 0
+offset_left = 74.0
+offset_top = 507.0
+offset_right = 846.0
+offset_bottom = 579.0
+theme_override_colors/font_color = Color(0.99982303, 0.33350104, 0.26771772, 1)
+theme_override_font_sizes/font_size = 33
+text = "mind to type your answer?"
+
+[node name="poster frame" type="Panel" parent="." unique_id=501753173]
+layout_mode = 0
+offset_left = 432.0
+offset_top = 77.0
+offset_right = 699.0
+offset_bottom = 383.0
+
+[node name="poster image" type="TextureRect" parent="poster frame" unique_id=1233322090]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+
+[node name="Timer" type="Timer" parent="." unique_id=2025100012]
+one_shot = true
+
+[node name="TimerLabel" type="Label" parent="." unique_id=1741221063]
+layout_mode = 0
+offset_left = 907.0
+offset_top = 58.0
+offset_right = 1078.0
+offset_bottom = 134.0
+theme_override_font_sizes/font_size = 55
+theme_override_styles/normal = SubResource("StyleBoxFlat_nu21b")

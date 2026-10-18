@@ -87,10 +87,10 @@ stretch_mode = 0
 
 [node name="poster6" type="TextureButton" parent="." unique_id=1563364784]
 layout_mode = 0
-offset_left = 578.0
-offset_top = 374.0
-offset_right = 710.0
-offset_bottom = 577.0
+offset_left = 576.0
+offset_top = 372.0
+offset_right = 708.0
+offset_bottom = 575.0
 texture_normal = ExtResource("7_tg4rr")
 ignore_texture_size = true
 stretch_mode = 0
