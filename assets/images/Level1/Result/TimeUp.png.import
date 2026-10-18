@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj3065s1wdh1a"
-path="res://.godot/imported/nextButton.png-bc0a62ca65b21304c30f49883056c22b.ctex"
+uid="uid://dkn61t6m7verl"
+path="res://.godot/imported/TimeUp.png-9991ee673b5614ef89aaa2f87ab69b96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Level1/nextButton.png"
-dest_files=["res://.godot/imported/nextButton.png-bc0a62ca65b21304c30f49883056c22b.ctex"]
+source_file="res://assets/images/Level1/Result/TimeUp.png"
+dest_files=["res://.godot/imported/TimeUp.png-9991ee673b5614ef89aaa2f87ab69b96.ctex"]
 
 [params]
 

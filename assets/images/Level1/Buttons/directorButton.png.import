@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjaljbfyd6ijw"
-path="res://.godot/imported/directorButton.png-ce97222feeff4ac855e627a43dd4573a.ctex"
+path="res://.godot/imported/directorButton.png-cd8ea038fe564412bc8ddf385f8b738b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Level1/directorButton.png"
-dest_files=["res://.godot/imported/directorButton.png-ce97222feeff4ac855e627a43dd4573a.ctex"]
+source_file="res://assets/images/Level1/Buttons/directorButton.png"
+dest_files=["res://.godot/imported/directorButton.png-cd8ea038fe564412bc8ddf385f8b738b.ctex"]
 
 [params]
 
