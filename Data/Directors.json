@@ -1,7 +1,7 @@
 [
   {
 	"director": "Abbas Kiarostami",
-	"pic path": "images/abbas_kiarostami.jpg",
+	"pic path": "res://images/Level1/Main/Directors/abbas_kiarostami.jpg",
 	"movies they directed": [
 	  "Taste of Cherry",
 	  "Close-Up",
@@ -56,7 +56,7 @@
   },
   {
 	"director": "David Lynch",
-	"pic path": "images/david_lynch.jpg",
+	"pic path": "res://images/Level1/Main/Directors/david_lynch.jpg",
 	"movies they directed": [
 	  "Mulholland Drive",
 	  "Blue Velvet",
@@ -157,7 +157,7 @@
   },
   {
 	"director": "Wes Anderson",
-	"pic path": "images/wes_anderson.jpg",
+	"pic path": "res://images/Level1/Main/Directors/wes_anderson.jpg",
 	"movies they directed": [
 	  "The Grand Budapest Hotel",
 	  "Fantastic Mr. Fox",
@@ -185,7 +185,7 @@
   },
   {
 	"director": "Sofia Coppola",
-	"pic path": "images/sofia_coppola.jpg",
+	"pic path": "res://images/Level1/Main/Directors/sofia_coppola.jpg",
 	"movies they directed": [
 	  "Lost in Translation",
 	  "The Virgin Suicides",
@@ -203,7 +203,7 @@
   },
   {
 	"director": "Spike Jonze",
-	"pic path": "images/spike_jonze.jpg",
+	"pic path": "res://images/Level1/Main/Directors/spike_jonze.jpg",
 	"movies they directed": [
 	  "Her",
 	  "Being John Malkovich",
@@ -252,7 +252,7 @@
   },
   {
 	"director": "Norman Jewison",
-	"pic path": "images/norman_jewison.jpg",
+	"pic path": "res://images/Level1/Main/Directors/norman_jewison.jpg",
 	"movies they directed": [
 	  "Moonstruck",
 	  "In the Heat of the Night",
@@ -290,7 +290,7 @@
   },
   {
 	"director": "Tim Burton",
-	"pic path": "images/tim_burton.jpg",
+	"pic path": "res://images/Level1/Main/Directors/tim_burton.jpg",
 	"movies they directed": [
 	  "Corpse Bride",
 	  "Edward Scissorhands",

@@ -1,10 +1,10 @@
-[gd_scene format=3 uid="uid://dc3vm6ykfjp78"]
+[gd_scene load_steps=2 format=3 uid="uid://dc3vm6ykfjp78"]
 
-[ext_resource type="VideoStream" uid="uid://b6nhf33277qs7" path="res://assets/videos/starting scene.ogv" id="1_avjl7"]
+[ext_resource type="VideoStream" path="res://assets/videos/starting scene.ogv" id="1_avjl7"]
 
-[node name="StartingScene" type="Node2D" unique_id=1009317240]
+[node name="StartingScene" type="Node2D"]
 
-[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1512504655]
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0

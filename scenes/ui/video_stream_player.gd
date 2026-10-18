@@ -1,5 +1,6 @@
 extends VideoStreamPlayer
 
+
 func _ready():
 	print("VIDEO SCRIPT IS RUNNING")
 	play()
