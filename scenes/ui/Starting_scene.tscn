@@ -1,3 +1,15 @@
 [gd_scene format=3 uid="uid://dc3vm6ykfjp78"]
 
-[node name="StartingScene" type="Node2D"]
+[ext_resource type="VideoStream" uid="uid://b6nhf33277qs7" path="res://assets/videos/starting scene.ogv" id="1_avjl7"]
+
+[node name="StartingScene" type="Node2D" unique_id=1009317240]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1512504655]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("1_avjl7")
+autoplay = true
+expand = true
