@@ -105,3 +105,6 @@ func find_match(input: String) -> String:
 		if input.similarity(title) >= MATCH_THRESHOLD:
 			return title
 	return ""
+
+func _on_NextButton_pressed():
+	get_tree().change_scene_to_file("res://scenes/game/map.tscn")
