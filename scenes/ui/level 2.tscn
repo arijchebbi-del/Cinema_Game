@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dp1jtmhp1at8r"]
+
+[ext_resource type="Texture2D" uid="uid://bn2nfudckwsr5" path="res://assets/images/level 2/WhatsApp Image 2026-10-18 at 01.24.15.jpeg" id="1_iq3io"]
+
+[node name="Level2" type="Node2D" unique_id=1678007606]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=94256619]
+position = Vector2(568.0002, 324.99997)
+scale = Vector2(0.9575, 0.9525223)
+texture = ExtResource("1_iq3io")
