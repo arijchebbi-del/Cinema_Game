@@ -14,6 +14,9 @@
 position = Vector2(2, 1)
 
 [node name="opening" type="VideoStreamPlayer" parent="." unique_id=1512504655]
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 anchors_preset = 15
 anchor_right = 1.0
