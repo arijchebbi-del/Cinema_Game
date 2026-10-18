@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cndvkhruucby7"
-path="res://.godot/imported/octavia spencer.jpg-fdbe9c4b1854f79b4c327dc3c0b4ce04.ctex"
+path="res://.godot/imported/octavia spencer.jpg-3b1eb0199e74eac2317ba73b53d88357.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/octavia spencer.jpg"
-dest_files=["res://.godot/imported/octavia spencer.jpg-fdbe9c4b1854f79b4c327dc3c0b4ce04.ctex"]
+source_file="res://Assets/images/level 3/cast/octavia spencer.jpg"
+dest_files=["res://.godot/imported/octavia spencer.jpg-3b1eb0199e74eac2317ba73b53d88357.ctex"]
 
 [params]
 

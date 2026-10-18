@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://b1anypsggop0b"]
+[gd_scene load_steps=0 format=3 uid="uid://b1anypsggop0b"]
 
 [ext_resource type="Script" uid="uid://ba08wp1ic0nk2" path="res://scripts/ActorDirector.gd" id="1_4mec3"]
 [ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://assets/images/Level1/Level1_Background.png" id="2_1leac"]

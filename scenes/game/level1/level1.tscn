@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://b2c6n148ars7j"]
+[gd_scene load_steps=6 format=3 uid="uid://b2c6n148ars7j"]
 
 [ext_resource type="Script" uid="uid://ba08wp1ic0nk2" path="res://scripts/ActorDirector.gd" id="1_kggjg"]
-[ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://assets/images/Level1/Level1_Background.png" id="1_lif40"]
+[ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://Assets/images/Level1/Level1_Background.png" id="1_lif40"]
 [ext_resource type="PackedScene" uid="uid://bg8aqfseg7k2i" path="res://scenes/game/level1/actor_game.tscn" id="2_kggjg"]
 [ext_resource type="PackedScene" uid="uid://drnfuterb7s0j" path="res://scenes/game/level1/director_game.tscn" id="3_tmehf"]
 
@@ -16,10 +16,10 @@ corner_radius_top_right = 7
 corner_radius_bottom_right = 7
 corner_radius_bottom_left = 7
 
-[node name="Level1" type="Node2D" unique_id=321186699]
+[node name="Level1" type="Node2D"]
 script = ExtResource("1_kggjg")
 
-[node name="Background" type="TextureRect" parent="." unique_id=1764292264]
+[node name="Background" type="TextureRect" parent="."]
 offset_left = -3.0000005
 offset_top = 644.0
 offset_right = 1149.0
@@ -29,7 +29,7 @@ scale = Vector2(0.55938894, 0.5645928)
 texture = ExtResource("1_lif40")
 expand_mode = 1
 
-[node name="ChoiceScreen" type="Control" parent="." unique_id=2107967145]
+[node name="ChoiceScreen" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -38,7 +38,7 @@ grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.6612995, 0.46724865)
 
-[node name="Title" type="Label" parent="ChoiceScreen" unique_id=1942124145]
+[node name="Title" type="Label" parent="ChoiceScreen"]
 layout_mode = 0
 offset_left = 427.94525
 offset_top = 44.943954
@@ -47,7 +47,7 @@ offset_bottom = 830.39294
 text = "Choose "
 horizontal_alignment = 1
 
-[node name="ButtonsBox" type="HBoxContainer" parent="ChoiceScreen" unique_id=577018940]
+[node name="ButtonsBox" type="HBoxContainer" parent="ChoiceScreen"]
 layout_mode = 1
 anchors_preset = -1
 offset_left = 474.82266
@@ -59,7 +59,7 @@ grow_vertical = 2
 theme_override_constants/separation = 10
 alignment = 1
 
-[node name="ActorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=675600708]
+[node name="ActorButton" type="Button" parent="ChoiceScreen/ButtonsBox"]
 custom_minimum_size = Vector2(320, 130)
 layout_mode = 2
 theme_override_font_sizes/font_size = 45
@@ -68,41 +68,41 @@ button_mask = 0
 text = "Actor"
 text_direction = 3
 
-[node name="DirectorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=570152369]
+[node name="DirectorButton" type="Button" parent="ChoiceScreen/ButtonsBox"]
 custom_minimum_size = Vector2(320, 130)
 layout_mode = 2
 theme_override_font_sizes/font_size = 45
 theme_override_styles/normal = SubResource("StyleBoxFlat_kggjg")
 text = "Director"
 
-[node name="ActorGame" parent="." unique_id=153928287 instance=ExtResource("2_kggjg")]
+[node name="ActorGame" parent="." instance=ExtResource("2_kggjg")]
 visible = false
 scale = Vector2(0.99999994, 0.99999994)
 
-[node name="DirectorGame" parent="." unique_id=80758363 instance=ExtResource("3_tmehf")]
+[node name="DirectorGame" parent="." instance=ExtResource("3_tmehf")]
 visible = false
 
-[node name="CompleteScreen" type="Control" parent="." unique_id=19404260]
+[node name="CompleteScreen" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="ContinueButton" type="Button" parent="CompleteScreen" unique_id=1701154275]
+[node name="ContinueButton" type="Button" parent="CompleteScreen"]
 layout_mode = 0
 offset_right = 8.0
 offset_bottom = 8.0
 
-[node name="CompleteLabel" type="Label" parent="CompleteScreen" unique_id=784469161]
+[node name="CompleteLabel" type="Label" parent="CompleteScreen"]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="ResultImage" type="TextureRect" parent="CompleteScreen" unique_id=26048048]
+[node name="ResultImage" type="TextureRect" parent="CompleteScreen"]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="BackButton" type="Button" parent="." unique_id=1175676172]
+[node name="BackButton" type="Button" parent="."]
 offset_right = 8.0
 offset_bottom = 8.0

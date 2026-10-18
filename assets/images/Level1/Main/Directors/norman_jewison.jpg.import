@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbjyucjrfc0wb"
-path="res://.godot/imported/norman_jewison.jpg-0e3051636883e52716d49ce7da5fe488.ctex"
+path="res://.godot/imported/norman_jewison.jpg-96110e82e8ad875b5f2fcda528cfa9c8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Level1/Main/Directors/norman_jewison.jpg"
-dest_files=["res://.godot/imported/norman_jewison.jpg-0e3051636883e52716d49ce7da5fe488.ctex"]
+source_file="res://Assets/images/Level1/Main/Directors/norman_jewison.jpg"
+dest_files=["res://.godot/imported/norman_jewison.jpg-96110e82e8ad875b5f2fcda528cfa9c8.ctex"]
 
 [params]
 

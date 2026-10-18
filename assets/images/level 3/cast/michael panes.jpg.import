@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d053sux4bt2x8"
-path="res://.godot/imported/michael panes.jpg-d8ef4cf2b1d0d166e94acf9e51fad0a9.ctex"
+path="res://.godot/imported/michael panes.jpg-d5d2e89bb06c5d3e65057f9061aaac32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/michael panes.jpg"
-dest_files=["res://.godot/imported/michael panes.jpg-d8ef4cf2b1d0d166e94acf9e51fad0a9.ctex"]
+source_file="res://Assets/images/level 3/cast/michael panes.jpg"
+dest_files=["res://.godot/imported/michael panes.jpg-d5d2e89bb06c5d3e65057f9061aaac32.ctex"]
 
 [params]
 
