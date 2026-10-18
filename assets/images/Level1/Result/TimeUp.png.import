@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjaljbfyd6ijw"
-path="res://.godot/imported/directorButton.png-ec12e59e65c9ab4bacc180a6b0fd01da.ctex"
+uid="uid://dkn61t6m7verl"
+path="res://.godot/imported/TimeUp.png-9991ee673b5614ef89aaa2f87ab69b96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/Level1/directorButton.png"
-dest_files=["res://.godot/imported/directorButton.png-ec12e59e65c9ab4bacc180a6b0fd01da.ctex"]
+source_file="res://assets/images/Level1/Result/TimeUp.png"
+dest_files=["res://.godot/imported/TimeUp.png-9991ee673b5614ef89aaa2f87ab69b96.ctex"]
 
 [params]
 

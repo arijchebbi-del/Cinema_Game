@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://c2sat5hlbbw8r" path="res://assets/images/Level1/Main/bg/bg2.png" id="3_ncih7"]
 [ext_resource type="Texture2D" uid="uid://cked81owt0pgs" path="res://assets/images/Level1/Main/bg/bg3.png" id="4_81rbm"]
 [ext_resource type="Texture2D" uid="uid://18wd7fsi6aiv" path="res://assets/images/Level1/Main/framefinal.png" id="7_jib3l"]
-[ext_resource type="Texture2D" uid="uid://bj3065s1wdh1a" path="res://assets/images/Level1/nextButton.png" id="8_81rbm"]
+[ext_resource type="Texture2D" uid="uid://bj3065s1wdh1a" path="res://assets/images/Level1/Buttons/nextButton.png" id="8_81rbm"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2ncca"]
 bg_color = Color(0.7764706, 0.007843138, 0.015686275, 1)
