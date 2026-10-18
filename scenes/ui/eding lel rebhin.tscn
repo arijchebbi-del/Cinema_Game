@@ -1,6 +1,17 @@
 [gd_scene load_steps=0 format=3 uid="uid://cjt2n8udsyisv"]
 
 [ext_resource type="VideoStream" uid="uid://bdxrgi6fl0tb8" path="res://assets/videos/interface-el-rebhin.ogv" id="1_2joj0"]
+[ext_resource type="Script" uid="uid://dfmojpvdjojoe" path="res://scenes/ui/eding_lel_rebhin.gd" id="1_87toe"]
+[ext_resource type="Texture2D" uid="uid://d4wu0tl1mvfc" path="res://assets/images/WhatsApp Image 2026-10-18 at 13.13.13.jpeg" id="3_87toe"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x4f15"]
+bg_color = Color(0.39607844, 0.050980393, 0.105882354, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="FontVariation" id="FontVariation_u52w6"]
 
 [node name="EdingLelRebhin" type="Control" unique_id=736500966]
 layout_mode = 3
@@ -9,6 +20,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_87toe")
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=593517314]
 layout_mode = 1
@@ -20,3 +32,33 @@ grow_vertical = 2
 stream = ExtResource("1_2joj0")
 autoplay = true
 expand = true
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1426242796]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_87toe")
+
+[node name="Button" type="Button" parent="." unique_id=845485426]
+layout_mode = 0
+offset_left = 359.0
+offset_top = 458.0
+offset_right = 839.0
+offset_bottom = 533.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0.8755697, 0.84097326, 0.8335572, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_x4f15")
+text = "PLAY AGAIN (an order)"
+
+[node name="points" type="Label" parent="." unique_id=127583521]
+layout_mode = 0
+offset_left = 545.0
+offset_top = 311.0
+offset_right = 733.0
+offset_bottom = 416.0
+theme_override_fonts/font = SubResource("FontVariation_u52w6")
+theme_override_font_sizes/font_size = 78
