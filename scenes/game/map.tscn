@@ -1,8 +1,77 @@
 [gd_scene format=3 uid="uid://c1mwdlsnjl5x1"]
 
 [ext_resource type="PackedScene" uid="uid://csw51jawpyr0m" path="res://scenes/ui/start.tscn" id="1_3fewy"]
+[gd_scene load_steps=3 format=3 uid="uid://c1mwdlsnjl5x1"]
 
 [node name="Map" type="Node2D" unique_id=1019817960]
 
 [node name="Start" parent="." unique_id=84968689 instance=ExtResource("1_3fewy")]
 position = Vector2(66.25, 248.74997)
+<<<<<<< HEAD
+[ext_resource type="Texture2D" uid="uid://cc7t7fg1hwie" path="res://Assets/images/BaseMap.jpg" id="1_3fewy"]
+[ext_resource type="Texture2D" uid="uid://chxen14n0i0h2" path="res://Assets/images/Lock.png" id="2_043wi"]
+=======
+[ext_resource type="Texture2D" uid="uid://cc7t7fg1hwie" path="res://assets/images/MapScene/BaseMap.jpg" id="1_3fewy"]
+[ext_resource type="Texture2D" uid="uid://chxen14n0i0h2" path="res://assets/images/MapScene/Lock.png" id="2_043wi"]
+>>>>>>> a57b0876f664553f83db2c858cf1b50ca323e5a7
+
+[node name="Map" type="Node2D"]
+
+[node name="Background" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+<<<<<<< HEAD
+[node name="BaseMap" type="Sprite2D" parent="."]
+=======
+[node name="BaseMap" type="Sprite2D" parent="Background" unique_id=525429554]
+>>>>>>> a57b0876f664553f83db2c858cf1b50ca323e5a7
+position = Vector2(572.375, 325.75)
+scale = Vector2(0.84340656, 0.8522136)
+texture = ExtResource("1_3fewy")
+
+[node name="Lock1" type="TextureButton" parent="."]
+offset_left = 575.99994
+offset_top = 98.0
+offset_right = 1057.0
+offset_bottom = 617.0
+rotation = 0.18413627
+scale = Vector2(0.45946068, 0.4910486)
+texture_normal = ExtResource("2_043wi")
+
+<<<<<<< HEAD
+[node name="Lock2" type="TextureButton" parent="."]
+offset_left = 130.99998
+offset_top = 75.0
+offset_right = 612.0
+offset_bottom = 594.0
+rotation = -0.16600928
+scale = Vector2(0.45892352, 0.4467005)
+texture_normal = ExtResource("2_043wi")
+
+[node name="Lock3" type="TextureButton" parent="."]
+offset_left = 788.0
+offset_top = 244.0
+offset_right = 1269.0
+offset_bottom = 763.0
+rotation = 0.04944637
+scale = Vector2(0.5121958, 0.48302475)
+=======
+[node name="Lock2" type="TextureButton" parent="." unique_id=1721249122]
+offset_left = 163.0
+offset_top = 65.0
+offset_right = 644.0
+offset_bottom = 584.0
+rotation = 0.007875577
+scale = Vector2(0.42795914, 0.4179329)
+texture_normal = ExtResource("2_043wi")
+
+[node name="Lock3" type="TextureButton" parent="." unique_id=1457773825]
+offset_left = 64.0
+offset_top = 317.99997
+offset_right = 545.0
+offset_bottom = 837.0
+rotation = -0.10412918
+scale = Vector2(0.48196653, 0.4618801)
+>>>>>>> a57b0876f664553f83db2c858cf1b50ca323e5a7
+texture_normal = ExtResource("2_043wi")
