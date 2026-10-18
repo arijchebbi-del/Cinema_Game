@@ -5,7 +5,7 @@ var actor
 var game_over = false
 var guessed: Array = []
 var lower_movies: Array = [] 
-const MATCH_THRESHOLD = 0.8
+const MATCH_THRESHOLD = 0.7
 
 func _ready():
 	actor=get_random_actor()

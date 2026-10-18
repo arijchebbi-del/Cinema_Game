@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwpt0gpmd6rh1"
-path="res://.godot/imported/jason clarke.jpg-46689ceadddf61c08656cc6ccd6f6a2d.ctex"
+path="res://.godot/imported/jason clarke.jpg-bbbdab459f2408fcac9970b1d0bbad68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/jason clarke.jpg"
-dest_files=["res://.godot/imported/jason clarke.jpg-46689ceadddf61c08656cc6ccd6f6a2d.ctex"]
+source_file="res://Assets/images/level 3/cast/jason clarke.jpg"
+dest_files=["res://.godot/imported/jason clarke.jpg-bbbdab459f2408fcac9970b1d0bbad68.ctex"]
 
 [params]
 

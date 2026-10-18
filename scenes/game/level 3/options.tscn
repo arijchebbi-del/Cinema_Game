@@ -1,29 +1,34 @@
-[gd_scene format=3 uid="uid://dhgsdfy121gqa"]
+[gd_scene load_steps=2 format=3 uid="uid://dhgsdfy121gqa"]
 
-[ext_resource type="Texture2D" uid="uid://yi3xte7dj2bo" path="res://assets/images/level 3/fond3.png" id="1_xootp"]
+[ext_resource type="Texture2D" uid="uid://yi3xte7dj2bo" path="res://Assets/images/level 3/fond3.png" id="1_xootp"]
 
-[node name="Options" type="Node2D" unique_id=559465893]
+[node name="Options" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 
-[node name="Fond3" type="Sprite2D" parent="." unique_id=1717540264]
+[node name="Fond3" type="Sprite2D" parent="."]
 position = Vector2(575.75, 324)
 scale = Vector2(1.1096618, 1.1065292)
 texture = ExtResource("1_xootp")
 
-[node name="Button" type="Button" parent="." unique_id=58334061]
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
 offset_left = 60.256733
 offset_top = 317.7602
 offset_right = 362.47427
 offset_bottom = 610.577
 rotation = -0.15583174
 
-[node name="Button2" type="Button" parent="." unique_id=1856270146]
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
 offset_left = 422.77753
 offset_top = 88.71106
 offset_right = 708.8867
 offset_bottom = 353.43747
 rotation = 0.046402175
 
-[node name="Button3" type="Button" parent="." unique_id=269986165]
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
 offset_left = 722.8202
 offset_top = 312.1464
 offset_right = 1028.8202

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lqsl7tk1rkkn"
-path="res://.godot/imported/macualey culkin.jpg-d1c8f2925434f1c21a0fb5abe8e097b9.ctex"
+path="res://.godot/imported/macualey culkin.jpg-00ac7f6adc9b9151d8130d8fc1a59832.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/macualey culkin.jpg"
-dest_files=["res://.godot/imported/macualey culkin.jpg-d1c8f2925434f1c21a0fb5abe8e097b9.ctex"]
+source_file="res://Assets/images/level 3/cast/macualey culkin.jpg"
+dest_files=["res://.godot/imported/macualey culkin.jpg-00ac7f6adc9b9151d8130d8fc1a59832.ctex"]
 
 [params]
 

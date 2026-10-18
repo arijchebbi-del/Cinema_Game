@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckag6w2tutcx"
-path="res://.godot/imported/johnny depp.jpg-cac3df62a67de4e8c6a5cac5c1b27397.ctex"
+path="res://.godot/imported/johnny depp.jpg-c049999470b257f43994067774c0bdd8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/johnny depp.jpg"
-dest_files=["res://.godot/imported/johnny depp.jpg-cac3df62a67de4e8c6a5cac5c1b27397.ctex"]
+source_file="res://Assets/images/level 3/cast/johnny depp.jpg"
+dest_files=["res://.godot/imported/johnny depp.jpg-c049999470b257f43994067774c0bdd8.ctex"]
 
 [params]
 

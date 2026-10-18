@@ -11,8 +11,8 @@ func _ready():
 	director=get_random_director()
 	if director.is_empty():
 		return
-	$directorName.text = director["name"]
-	$directorPic.texture = director["pic"]
+	$ActorName.text = director["name"]
+	$DirectorPic.texture = director["pic"]
 	lower_movies=director["movies"].map(func(m): return m.to_lower())
 	
 	# Set timer to 1 minute (60 seconds)
@@ -51,7 +51,7 @@ func get_random_director() -> Dictionary:
 	return {
 		"name": entry["director"],
 		"pic": load(entry["pic path"]),   # Texture2D
-		"movies": entry["movies they starred in"],   # Array of Strings
+		"movies": entry["movies they directed"],   # Array of Strings
 	}
 	
 func _input(event):
