@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://ok85fqfycxlt"]
+
+[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://assets/images/level 3/baddescription.png" id="1_e2hgj"]
+
+[node name="Description" type="Node2D" unique_id=2110711056]
+
+[node name="Baddescription" type="Sprite2D" parent="." unique_id=1009758870]
+position = Vector2(575, 322)
+scale = Vector2(1.121256, 1.1256453)
+texture = ExtResource("1_e2hgj")
+
+[node name="Button" type="Button" parent="." unique_id=374716966]
+offset_left = 785.0
+offset_top = 479.0
+offset_right = 898.0
+offset_bottom = 545.0
+theme_override_colors/font_color = Color(0.69411767, 0.4509804, 0.03529412, 1)
+theme_override_font_sizes/font_size = 29
+text = "ENTER"
+
+[node name="LineEdit" type="LineEdit" parent="." unique_id=1265920514]
+offset_left = 249.0
+offset_top = 482.0
+offset_right = 751.0
+offset_bottom = 546.0
+theme_override_colors/font_color = Color(0.47843137, 0.3019608, 0.06666667, 1)
+theme_override_font_sizes/font_size = 23
+text = "I DARE YOU TO TYPE THE CORRECT ANSWER"
+
+[node name="Label" type="Label" parent="." unique_id=1641323106]
+offset_left = 247.0
+offset_top = 151.0
+offset_right = 897.0
+offset_bottom = 375.0
