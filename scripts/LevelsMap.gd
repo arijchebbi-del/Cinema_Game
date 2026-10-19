@@ -19,9 +19,9 @@ func update_game_select_display():
 
 func update_button_states():
 	var buttons = {
-		"GuessMovie": $GuessMovieButton,
-		"MovieQuestions": $MovieQuestionsButton,
-		"ActorDirector": $ActorDirectorButton,
+		"GuessMovie": $Lock1,
+		"MovieQuestions": $Lock2,
+		"ActorDirector": $Lock3,
 	}
 
 	# Games not won yet
