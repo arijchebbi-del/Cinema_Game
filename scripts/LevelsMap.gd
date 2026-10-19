@@ -2,6 +2,7 @@ extends Control
 
 const GAMES = ["GuessMovie", "MovieQuestions", "ActorDirector"]
 
+
 func _ready():
 	# Update button states and background
 	update_game_select_display()
