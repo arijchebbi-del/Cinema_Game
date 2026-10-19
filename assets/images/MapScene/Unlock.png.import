@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dv2i52f7u3fq5"
-path="res://.godot/imported/Unlock.png-ca3a026d9fe9b4f1f0dc29791a5f8434.ctex"
+path="res://.godot/imported/Unlock.png-9ab58ca39a37306e5d8589201ae12635.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/MapScene/Unlock.png"
-dest_files=["res://.godot/imported/Unlock.png-ca3a026d9fe9b4f1f0dc29791a5f8434.ctex"]
+source_file="res://assets/images/MapScene/Unlock.png"
+dest_files=["res://.godot/imported/Unlock.png-9ab58ca39a37306e5d8589201ae12635.ctex"]
 
 [params]
 

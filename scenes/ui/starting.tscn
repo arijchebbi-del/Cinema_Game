@@ -1,15 +1,20 @@
-[gd_scene load_steps=0 format=3 uid="uid://drmbw2kg488ui"]
+[gd_scene format=3 uid="uid://drmbw2kg488ui"]
 
-[ext_resource type="Texture2D" uid="uid://mmvvt2cgnsbf" path="res://assets/images/startscene.png" id="1_h1f32"]
+[ext_resource type="Script" uid="uid://dwlh1rycr17q7" path="res://scripts/StartingPoint.gd" id="1_h1f32"]
+[ext_resource type="Texture2D" uid="uid://mmvvt2cgnsbf" path="res://assets/images/startscene.png" id="2_1e2cj"]
 
-[node name="Starting" type="Node2D" unique_id=957635168]
+[node name="Starting" type="Control" unique_id=1202222697]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_h1f32")
 
 [node name="Startscene" type="Sprite2D" parent="." unique_id=947546381]
 position = Vector2(574.00006, 320.75)
 scale = Vector2(1.3874091, 1.1176976)
-texture = ExtResource("1_h1f32")
+texture = ExtResource("2_1e2cj")
 
 [node name="Button" type="Button" parent="." unique_id=987489601]
+layout_mode = 0
 offset_left = 978.0
 offset_top = 522.0
 offset_right = 1063.0
@@ -20,6 +25,7 @@ text = "YES?
 "
 
 [node name="Label" type="Label" parent="." unique_id=1582554231]
+layout_mode = 0
 offset_left = 63.0
 offset_top = 514.0
 offset_right = 168.0
