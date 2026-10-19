@@ -2,12 +2,15 @@ extends Control
 
 const GAMES = ["GuessMovie", "MovieQuestions", "ActorDirector"]
 
+<<<<<<< HEAD
 # Which button opens which game (check this mapping!)
 @onready var buttons = {
 	"GuessMovie": $Lock3,
 	"MovieQuestions": $Lock2,
 	"ActorDirector": $Lock1,
 }
+=======
+>>>>>>> bb4710e5ae7a29cb534001754bb71ff2c703987b
 
 func _ready():
 	Global.make_all_buttons_transparent()
