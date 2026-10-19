@@ -14,4 +14,4 @@ func _ready():
 
 func _on_movie_pressed(index: int):
 	Global.selected_movie = movies[index]
-	get_tree().change_scene_to_file("res://scenes/question_scene.tscn")
+	get_tree().change_scene_to_file("res://scenes/game/level 2/questions.tscn")

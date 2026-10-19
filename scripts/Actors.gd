@@ -95,6 +95,9 @@ func update_background():
 			print("Showing background: bg", correct_answers)
 		else:
 			print("WARNING: bg", correct_answers, " not found!")
+			
+			
+			
 
 func _on_timeout():
 	# Timer expired
