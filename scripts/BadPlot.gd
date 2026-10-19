@@ -40,7 +40,7 @@ func _process(_delta):
 func get_random_movie() -> Dictionary:
 	var file = FileAccess.open("res://Data/BadPlotDescrip.json", FileAccess.READ)
 	if file == null:
-		push_error("Could not open colorpalette.json")
+		push_error("Could not open badplot.json")
 		return {}
 
 	var movies = JSON.parse_string(file.get_as_text())

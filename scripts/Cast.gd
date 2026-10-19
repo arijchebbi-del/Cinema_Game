@@ -5,15 +5,21 @@ var correct_answers = 0
 const MATCH_THRESHOLD = 0.75
 var answer : String
 
-@onready var palette: TextureRect = $Palette
-
+@onready var member1: TextureRect = $Member1
+@onready var member2: TextureRect = $Member2
+@onready var member3: TextureRect = $Member3
+@onready var member4: TextureRect = $Member4
 
 func _ready():
 	var movie=get_random_movie()
 	if movie.is_empty():
 		return
 	
-	$Descrip.text = movie["plot descrip"]
+	$Member1.texture = movie["cast1"]
+	$Member2.texture = movie["cast2"]
+	$Member3.texture = movie["cast3"]
+	$Member4.texture = movie["cast4"]
+	
 	answer = movie["title"]
 	
 	# Set timer to (40 seconds)
@@ -38,9 +44,9 @@ func _process(_delta):
 		$TimerLabel.text = "Time: %d" % ceil($Timer.time_left)
 
 func get_random_movie() -> Dictionary:
-	var file = FileAccess.open("res://Data/BadPlotDescrip.json", FileAccess.READ)
+	var file = FileAccess.open("res://Data/Cast.json", FileAccess.READ)
 	if file == null:
-		push_error("Could not open colorpalette.json")
+		push_error("Could not open cast.json")
 		return {}
 
 	var movies = JSON.parse_string(file.get_as_text())
@@ -49,7 +55,10 @@ func get_random_movie() -> Dictionary:
 	var entry = movies.pick_random()
 	return {
 		"title": entry["title"],
-		"plot descrip": load(entry["plot descrip"]),   # Texture2D
+		"cast1": load(entry["cast1"]),   # Texture2D
+		"cast": load(entry["cast2"]),   # Texture2D
+		"cast3": load(entry["cast3"]),   # Texture2D
+		"cast4": load(entry["cast4"]),   # Texture2D
 	}
 	
 func _input(event):
