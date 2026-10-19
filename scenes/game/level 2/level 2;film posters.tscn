@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://co0hhrs4pxko0"]
+[gd_scene load_steps=11 format=3 uid="uid://co0hhrs4pxko0"]
 
 [ext_resource type="Texture2D" uid="uid://bm4j4n7wbmbi0" path="res://Assets/images/level 2/level 2.jpeg" id="1_7tpvq"]
+[ext_resource type="Script" uid="uid://hkjvl0fghxgi" path="res://scripts/PosterButtons.gd" id="1_edh68"]
 [ext_resource type="Texture2D" uid="uid://dglps12x62los" path="res://Assets/images/level 2/@julietteshere🐬.jpg" id="2_qqhp7"]
 [ext_resource type="Texture2D" uid="uid://cp8fwf0m0cjfb" path="res://Assets/images/level 2/500 Days of Summer.jpg" id="3_24w6f"]
 [ext_resource type="Texture2D" uid="uid://blo3h4imy7jm0" path="res://Assets/images/level 2/800163058805697764.jpg" id="4_edh68"]
@@ -17,6 +18,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_edh68")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 1
@@ -29,6 +31,7 @@ offset_right = 2.0
 offset_bottom = 5.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 texture = ExtResource("1_7tpvq")
 expand_mode = 1
 

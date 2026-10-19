@@ -1,9 +1,322 @@
- 
-  [{
-	"title": "",
-	"poster path": "res://images/Level1/Main/Directors/abbas_kiarostami.jpg",
+[
+  {
+	"title": "Call Me by Your Name",
+	"poster path": "res://Assets/images/level 2/@julietteshere🐬.jpg",
 	"questions": [
-		[{"q": "", "a":""}]
+	  
+		{
+		  "q": "What instrument does Elio play",
+		  "a": "the piano"
+		},
+		{
+		  "q": "What subject does Elio's father specialize in",
+		  "a": "archeology particularly ancient greek and roman culture"
+		},
+		{
+		  "q": "What is the name of the girl Elio dates during the summer",
+		  "a": "marzia"
+		},
+		{
+		  "q": "What does Elio's mother do that helps him understand the idea of love and heartbreak",
+		  "a": "she reads him a story"
+		},
+		{
+		  "q": "who said the famous \"is better to speak or to die\"",
+		  "a": "the mother"
+		},
+		{
+		  "q": "What does Elio do with Oliver's bathing suit when Oliver goes swimming",
+		  "a": "he tries it on"
+		},
+		{
+		  "q": "What personal regret does Elio’s father reveal when he talks to Elio about his relationship with Oliver",
+		  "a": "that he once experienced a similar connection and he regrets losing that opportunity"
+		}
+	  ]
+	
+  },
+  {
+	"title": "500 Days of Summer",
+	"poster path": "res://Assets/images/level 2/500 Days of Summer.jpg",
+	"questions": [
+	  
+		{
+		  "q": "What is Toms profession at the beginning of the film",
+		  "a": "he writes greeting cards"
+		},
+		{
+		  "q": "What does Summer tell Tom early in their relationship about love",
+		  "a": "she doesnt believe in love and doesnt want a serious relationship"
+		},
+		{
+		  "q": "What is the name of Tom's younger sister who gives him relationship advice",
+		  "a": "rachel"
+		},
+		{
+		  "q": "Where do Tom and Summer share their first kiss",
+		  "a": "in he copy room"
+		},
+		{
+		  "q": "What does Tom discover when he attends a party at Summer's apartment after their breakup",
+		  "a": "summer is engaged"
+		},
+		{
+		  "q": "What does Tom do after quitting his greeting-card job",
+		  "a": "he pursues his real passion for architecture"
+		},
+		{
+		  "q": "whats the name of the girl tom met at the end of the film",
+		  "a": "autumn"
+		}
+	  ]
+	
+  },
+  {
+	"title": "The Perks of Being a Wallflower",
+	"poster path": "res://Assets/images/level 2/800163058805697764.jpg",
+	"questions": [
+	  
+		{
+		  "q": "Whats the name of charlies best friend that died before the story began",
+		  "a": "michael"
+		},
+		{
+		  "q": "What does Charlie give Sam for Christmas",
+		  "a": "collection of poems"
+		},
+		{
+		  "q": "Which musical Patrick and his friends perform",
+		  "a": "the rocky horror show"
+		},
+		{
+		  "q": "Which character was sexually abused as a child by a trusted family member",
+		  "a": "charlie"
+		},
+		{
+		  "q": "What does Sam plan to study after high school",
+		  "a": "film"
+		},
+		{
+		  "q": "whats the famous sentence the English teacher says to charlie",
+		  "a": "we accept the love we think we deserve"
+		},
+		{
+		  "q": "What disturbing truth does Charlie eventually remember about Aunt Helen",
+		  "a": "she sexually abused him as a child"
+		}
+	  ]
+	
+  },
+  {
+	"title": "When Harry Met Sally",
+	"poster path": "res://Assets/images/level 2/When Harry Met Sally (1).jpg",
+	"questions": [
+	  
+		{
+		  "q": "how did Harry and Sally first meet",
+		  "a": "they sharea car ride to new york"
+		},
+		{
+		  "q": "whats the main question the movie explores about men and women",
+		  "a": "can men and women just be friends no sexual attraction"
+		},
+		{
+		  "q": "what does Sally famously demonstrate while sitting in the restaurant",
+		  "a": "the fake orgasm"
+		},
+		{
+		  "q": "during which season of the year does Harry finally realize hes in love with Sally",
+		  "a": "new years eve"
+		},
+		{
+		  "q": "when was When Harry Met Sally released",
+		  "a": "1998"
+		},
+		{
+		  "q": "what relationship statues does harry start the movie with",
+		  "a": "taken"
+		},
+		{
+		  "q": "Who becomes more emotionally attached to the friendship first",
+		  "a": "harry"
+		},
+		{
+		  "q": "whats the name of harrys first girlfriend when the movie started",
+		  "a": "amanda"
+		},
+		{
+		  "q": "Are Harry and Sally around the same age",
+		  "a": "yes"
+		},
+		{
+		  "q": "Who says “I'll have what she's having”",
+		  "a": "an old lady after seeing sally perform a fake orgasm while eating"
+		}
+	  ]
+	
+  },
+  {
+	"title": "Manchester by the Sea",
+	"poster path": "res://Assets/images/level 2/820710732114283075.jpg",
+	"questions": [
+	  
+		{
+		  "q": "What tragic event brings Lee back to his hometown",
+		  "a": "his brother dies"
+		},
+		{
+		  "q": "How old is Patrick approximately",
+		  "a": "16"
+		},
+		{
+		  "q": "What is the main emotional struggle Lee faces throughout the movie",
+		  "a": "guilt over the death of his kids"
+		},
+		{
+		  "q": "Why does Lee refuse to become Patrick's permanent guardian",
+		  "a": "he believes he cant take care of children due to his previous accident"
+		},
+		{
+		  "q": "Does Lee fully overcome his trauma by the end",
+		  "a": "no"
+		},
+		{
+		  "q": "Why does Lee become Patrick's legal guardian",
+		  "a": "his brother named him guardian in his will"
+		},
+		{
+		  "q": "What is Lee's job when he lives in Boston",
+		  "a": "janitor/ handyman"
+		},
+		{
+		  "q": "Does Patrick have siblings",
+		  "a": "no"
+		},
+		{
+		  "q": "Where does Lee live before returning to his hometown",
+		  "a": "boston"
+		},
+		{
+		  "q": "What is the genre of the movie",
+		  "a": "tragical drama"
+		}
+	  
 	]
-}
+  },
+  {
+	"title": "Fight Club",
+	"poster path": "res://Assets/images/level 2/Poster from the film Fight Club.jpg",
+	"questions": [
+	  
+		{
+		  "q": "What does the Narrator suffer from at the beginning of the film that prevents him from sleeping",
+		  "a": "chronic insomnia"
+		},
+		{
+		  "q": "What is the name of the woman the Narrator repeatedly encounters at support groups",
+		  "a": "marla singer"
+		},
+		{
+		  "q": "Where do the Narrator and Tyler first fight each other",
+		  "a": "outside a bar in a parking lot"
+		},
+		{
+		  "q": "What is the second rule of Fight Club",
+		  "a": "you DO NOT talk about fight club"
+		},
+		{
+		  "q": "What does Tyler make using human fat stolen from a liposuction clinic",
+		  "a": "soap"
+		},
+		{
+		  "q": "What phrase do Project Mayhem members use to identify themselves",
+		  "a": "his name is Robert Paulson"
+		},
+		{
+		  "q": "how does bob die",
+		  "a": "shot by the police during a project mayhem operation"
+		}
+	  ]
+	
+  },
+  {
+	"title": "Eternal Sunshine of the Spotless Mind",
+	"poster path": "res://Assets/images/level 2/Eternal Sunshine of the Spotless Mind.jpg",
+	"questions": [
+	  
+		{
+		  "q": "whats the name of the main lead",
+		  "a": "clementine"
+		},
+		{
+		  "q": "Where do Joel and Clementine first meet in the film's chronological timeline",
+		  "a": "on a train"
+		},
+		{
+		  "q": "how many times clementine changes her hair color during the movie",
+		  "a": "four times"
+		},
+		{
+		  "q": "What is the name of the seaside town where Joel and Clementine first meet and later keep returning to",
+		  "a": "montauk"
+		},
+		{
+		  "q": "How many people were present at Joel’s apartment during the memory-erasure procedure",
+		  "a": "two"
+		},
+		{
+		  "q": "What color is Clementine’s hair when Joel first meets her on the train",
+		  "a": "blue"
+		},
+		{
+		  "q": "What is the name of the technician who falls asleep while working on Joel",
+		  "a": "stan"
+		},
+		{
+		  "q": "What does Mary discover at the end of the movie",
+		  "a": "that she had an affair with the doctor and he erased her memories"
+		}
+	  ]
+	
+  },
+  {
+	"title": "12 Angry Men",
+	"poster path": "res://Assets/images/level 2/12 Angry Men (1957) Dir_ Sidney Lumet.jpg",
+	"questions": [
+	  
+		{
+		  "q": "What is the defendant accused of doing",
+		  "a": "murder of his father"
+		},
+		{
+		  "q": "What is the punishment if the defendant is found guilty",
+		  "a": "death penalty"
+		},
+		{
+		  "q": "how many jurors voted the defendant guilty in the initial vote",
+		  "a": "11"
+		},
+		{
+		  "q": "which juror initially votes not guilty",
+		  "a": "juror 8"
+		},
+		{
+		  "q": "What does Juror 7 care more about than the trial",
+		  "a": "going to the baseball game"
+		},
+		{
+		  "q": "What important object does Juror 8 bring into the deliberation to prove his point",
+		  "a": "a knife identical to the murder weapon"
+		},
+		{
+		  "q": "What weapon was allegedly used to kill the defendant's father",
+		  "a": "a switchblade knife"
+		},
+		{
+		  "q": "What detail makes the jury question whether the elderly witness could have heard the murderer's words",
+		  "a": "the noise of the passing train"
+		}
+	  ]
+	
+  }
 ]
