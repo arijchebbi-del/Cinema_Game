@@ -1,19 +1,20 @@
-[gd_scene load_steps=8 format=3 uid="uid://cq0rdjvk5be18"]
+[gd_scene format=3 uid="uid://b1anypsggop0b"]
 
 [ext_resource type="Script" uid="uid://ba08wp1ic0nk2" path="res://scripts/ActorDirector.gd" id="1_4mec3"]
-[ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://Assets/images/Level1/Level1_Background.png" id="2_1leac"]
-[ext_resource type="Texture2D" uid="uid://dfcsfy27qgq2u" path="res://Assets/images/Level1/Welcome/title.png" id="3_c1cqk"]
-[ext_resource type="Texture2D" uid="uid://cqe75t0yvbg35" path="res://Assets/images/Level1/Buttons/actorButton.png" id="4_4mec3"]
-[ext_resource type="Texture2D" uid="uid://bjaljbfyd6ijw" path="res://Assets/images/Level1/Buttons/directorButton.png" id="5_4mec3"]
+[ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://assets/images/Level1/Level1_Background.png" id="2_1leac"]
+[ext_resource type="Texture2D" uid="uid://dfcsfy27qgq2u" path="res://assets/images/Level1/Welcome/title.png" id="3_c1cqk"]
+[ext_resource type="Texture2D" uid="uid://cqe75t0yvbg35" path="res://assets/images/Level1/Buttons/actorButton.png" id="4_4mec3"]
+[ext_resource type="Texture2D" uid="uid://bjaljbfyd6ijw" path="res://assets/images/Level1/Buttons/directorButton.png" id="5_4mec3"]
 [ext_resource type="PackedScene" uid="uid://bg8aqfseg7k2i" path="res://scenes/game/level1/actor_game.tscn" id="6_41sc1"]
 [ext_resource type="PackedScene" uid="uid://drnfuterb7s0j" path="res://scenes/game/level1/director_game.tscn" id="7_60dwx"]
+[ext_resource type="PackedScene" uid="uid://bo0v62un24xw0" path="res://scenes/game/level1/result.tscn" id="8_1leac"]
 
-[node name="Level1" type="Control"]
+[node name="Level1" type="Control" unique_id=874600053]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_4mec3")
 
-[node name="Background" type="TextureRect" parent="."]
+[node name="Background" type="TextureRect" parent="." unique_id=104778365]
 layout_mode = 0
 offset_left = -3.0000005
 offset_top = 644.0
@@ -24,7 +25,7 @@ scale = Vector2(0.55938894, 0.5645928)
 texture = ExtResource("2_1leac")
 expand_mode = 1
 
-[node name="ChoiceScreen" type="Control" parent="."]
+[node name="ChoiceScreen" type="Control" parent="." unique_id=233568534]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -33,7 +34,7 @@ grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.6612995, 0.46724865)
 
-[node name="Title" type="TextureRect" parent="ChoiceScreen"]
+[node name="Title" type="TextureRect" parent="ChoiceScreen" unique_id=950628663]
 layout_mode = 0
 offset_left = 37.80435
 offset_top = -235.4207
@@ -42,7 +43,7 @@ offset_bottom = 1513.1129
 rotation = 0.031233154
 texture = ExtResource("3_c1cqk")
 
-[node name="ButtonsBox" type="HBoxContainer" parent="ChoiceScreen"]
+[node name="ButtonsBox" type="HBoxContainer" parent="ChoiceScreen" unique_id=923296535]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -57,52 +58,27 @@ scale = Vector2(0.48978004, 0.6616329)
 theme_override_constants/separation = 10
 alignment = 1
 
-[node name="ActorButton" type="Button" parent="ChoiceScreen/ButtonsBox"]
+[node name="ActorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=557024206]
 custom_minimum_size = Vector2(320, 130)
 layout_mode = 2
 theme_override_font_sizes/font_size = 45
-button_mask = 0
 icon = ExtResource("4_4mec3")
 flat = true
 text_direction = 3
 
-[node name="DirectorButton" type="Button" parent="ChoiceScreen/ButtonsBox"]
+[node name="DirectorButton" type="Button" parent="ChoiceScreen/ButtonsBox" unique_id=718691675]
 custom_minimum_size = Vector2(320, 130)
 layout_mode = 2
 theme_override_font_sizes/font_size = 45
 icon = ExtResource("5_4mec3")
 flat = true
 
-[node name="ActorGame" parent="." instance=ExtResource("6_41sc1")]
-visible = false
+[node name="ActorGame" parent="." unique_id=678949343 instance=ExtResource("6_41sc1")]
 layout_mode = 0
 scale = Vector2(0.99999994, 0.99999994)
 
-[node name="DirectorGame" parent="." instance=ExtResource("7_60dwx")]
-visible = false
+[node name="DirectorGame" parent="." unique_id=1744014466 instance=ExtResource("7_60dwx")]
 layout_mode = 0
 
-[node name="CompleteScreen" type="Control" parent="."]
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="ContinueButton" type="Button" parent="CompleteScreen"]
+[node name="CompleteScreen" parent="." unique_id=148751940 instance=ExtResource("8_1leac")]
 layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
-
-[node name="CompleteLabel" type="Label" parent="CompleteScreen"]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-
-[node name="ResultImage" type="TextureRect" parent="CompleteScreen"]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="BackButton" type="Button" parent="."]
-layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0

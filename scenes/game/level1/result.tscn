@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bo0v62un24xw0"]
 
 [ext_resource type="Texture2D" uid="uid://bfakp0po185ke" path="res://assets/images/Level1/Level1_Background.png" id="1_h4pd2"]
+[ext_resource type="Script" uid="uid://kf8i312syj3h" path="res://scripts/Result.gd" id="1_thj50"]
 [ext_resource type="Texture2D" uid="uid://64swk5cihs2e" path="res://assets/images/Level1/Result/ActorWon.png" id="2_7qjuk"]
 [ext_resource type="Texture2D" uid="uid://ba0vh8c71siub" path="res://assets/images/Level1/Result/DirectorWon.png" id="3_b7ype"]
 [ext_resource type="Texture2D" uid="uid://dkn61t6m7verl" path="res://assets/images/Level1/Result/TimeUp.png" id="4_b7ype"]
@@ -17,9 +18,13 @@ corner_radius_top_right = 3
 corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 
-[node name="Result" type="Node2D" unique_id=148751940]
+[node name="Result" type="Control" unique_id=759300420]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_thj50")
 
 [node name="Background" type="TextureRect" parent="." unique_id=1968427572]
+layout_mode = 0
 offset_left = -3.0
 offset_top = 649.99994
 offset_right = 1149.0
@@ -30,6 +35,7 @@ texture = ExtResource("1_h4pd2")
 
 [node name="ActorGameWon" type="TextureRect" parent="." unique_id=33694112]
 visible = false
+layout_mode = 0
 offset_left = 298.0
 offset_top = 79.0
 offset_right = 733.0
@@ -39,6 +45,7 @@ texture = ExtResource("2_7qjuk")
 
 [node name="DirectorGameWon" type="TextureRect" parent="." unique_id=1435794054]
 visible = false
+layout_mode = 0
 offset_left = 298.0
 offset_top = 79.0
 offset_right = 733.0
@@ -47,6 +54,7 @@ scale = Vector2(1.2856135, 1.1042606)
 texture = ExtResource("3_b7ype")
 
 [node name="TimeSUp" type="TextureRect" parent="." unique_id=1526259534]
+layout_mode = 0
 offset_left = 288.0
 offset_top = 34.000004
 offset_right = 771.03784
@@ -55,6 +63,7 @@ scale = Vector2(1.2856135, 1.1042606)
 texture = ExtResource("4_b7ype")
 
 [node name="NextButton" type="Button" parent="." unique_id=882672037]
+layout_mode = 0
 offset_left = 483.0
 offset_top = 549.0
 offset_right = 1463.0

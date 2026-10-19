@@ -10,10 +10,15 @@ var selected_movie: Dictionary = {} #level2
 var guess_movie: bool = false
 var movie_questions: bool = false
 var actor_director: bool = false
-
+var last_result: String = ""
 signal game_won(game_name: String, points: int)
 signal game_lost()
 
+var won_games: Array = []
+
+func mark_won(game_name: String) -> void:
+	if not won_games.has(game_name):
+		won_games.append(game_name)
 func reset_game():
 	score = 0
 	games_won = 0

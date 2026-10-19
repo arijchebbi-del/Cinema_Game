@@ -1,113 +1,161 @@
 extends Control
 
-var correct_answers = 0 
-var actor
-var game_over = false
-var guessed: Array = []
-var lower_movies: Array = [] 
+signal game_completed(won: bool)
+
+const WIN_TARGET = 4
 const MATCH_THRESHOLD = 0.7
 
-func _ready():
-	actor=get_random_actor()
-	if actor.is_empty():
-		return
-	$ActorName.text = actor["name"]
-	$ActorPic.texture = actor["pic"]
-	lower_movies=actor["movies"].map(func(m): return m.to_lower())
-	
-	# Set timer to 1 minute (60 seconds)
-	$Timer.wait_time = 60.0
-	$Timer.one_shot = true
-	$Timer.timeout.connect(_on_timeout)
-	$Timer.start()
-	
-	# Show initial background (0 correct)
-	update_background()
-	
-	# Update timer display
-	$TimerLabel.text = "Time: 60"
-	
-	# Make GameSelect buttons transparent
-	Global.make_all_buttons_transparent()
-	
-	
-	$NextButton.hide()
+var correct_answers: int = 0
+var actor: Dictionary = {}
+var game_over: bool = false
+var guessed: Array = []
+var lower_movies: Array = []
 
-func _process(_delta):
-	# Update timer display every frame
-	if $Timer.is_stopped() == false:
+func _ready() -> void:
+	correct_answers = 0
+	game_over = false
+	guessed.clear()
+
+	Global.make_all_buttons_transparent()
+
+	actor = get_random_actor()
+	if actor.is_empty():
+		push_error("Impossible de charger les données de l'acteur.")
+		return
+
+	if has_node("ActorName"):
+		$ActorName.text = actor.get("name", "")
+	if has_node("ActorPic") and actor.get("pic") != null:
+		$ActorPic.texture = actor["pic"]
+		
+	var movies_list: Array = actor.get("movies", [])
+	lower_movies.clear()
+	for m in movies_list:
+		lower_movies.append(str(m).strip_edges().to_lower())
+
+	# Connexion forcée du signal du LineEdit
+	if has_node("GuessInput"):
+		var input_node = $GuessInput
+		input_node.focus_mode = Control.FOCUS_CLICK
+		if input_node.text_submitted.is_connected(_on_guess_submitted):
+			input_node.text_submitted.disconnect(_on_guess_submitted)
+		input_node.text_submitted.connect(_on_guess_submitted)
+
+	if has_node("NextButton"):
+		$NextButton.focus_mode = Control.FOCUS_NONE
+		$NextButton.hide()
+		if not $NextButton.pressed.is_connected(_on_NextButton_pressed):
+			$NextButton.pressed.connect(_on_NextButton_pressed)
+
+	if has_node("Timer"):
+		$Timer.wait_time = 60.0
+		$Timer.one_shot = true
+		if not $Timer.timeout.is_connected(_on_timeout):
+			$Timer.timeout.connect(_on_timeout)
+		$Timer.start()
+	
+	if has_node("TimerLabel"):
+		$TimerLabel.text = "Time: 60"
+
+	update_background()
+
+func _process(_delta: float) -> void:
+	if has_node("Timer") and not $Timer.is_stopped() and has_node("TimerLabel"):
 		$TimerLabel.text = "Time: %d" % ceil($Timer.time_left)
 
 func get_random_actor() -> Dictionary:
-	var file = FileAccess.open("res://Data/Actors.json", FileAccess.READ)
+	var json_path = "res://Data/Actors.json"
+	if not FileAccess.file_exists(json_path):
+		push_error("Fichier introuvable : " + json_path)
+		return {}
+
+	var file = FileAccess.open(json_path, FileAccess.READ)
 	if file == null:
-		push_error("Could not open actors.json")
 		return {}
 
 	var actors = JSON.parse_string(file.get_as_text())
-	
+	if actors == null or not (actors is Array) or actors.is_empty():
+		push_error("Le fichier Actors.json est vide ou mal formaté.")
+		return {}
 
 	var entry = actors.pick_random()
+	var pic_path: String = entry.get("pic path", entry.get("pic_path", ""))
+	pic_path = pic_path.replace("res://assests/", "res://assets/")
+
+	var pic_texture = null
+	if ResourceLoader.exists(pic_path):
+		pic_texture = load(pic_path)
+
+	var actor_name = entry.get("actor", entry.get("name", "Inconnu"))
+	var actor_movies = entry.get("movies they acted in", entry.get("movies", []))
+
 	return {
-		"name": entry["actor"],
-		"pic": load(entry["pic path"]),   # Texture2D
-		"movies": entry["movies they starred in"],   # Array of Strings
+		"name": actor_name,
+		"pic": pic_texture,
+		"movies": actor_movies,
 	}
-	
-func _input(event):
-	if game_over or not event.is_action_pressed("ui_accept") or event.is_echo():
+
+func _on_guess_submitted(raw_input: String) -> void:
+	if game_over:
 		return
-	var input = $GuessInput.text.strip_edges().to_lower()
+
+	var input = raw_input.strip_edges().to_lower()
+	if input == "":
+		return
+
 	var match_title = find_match(input)
-	
+
 	if match_title != "" and not guessed.has(match_title):
 		guessed.append(match_title)
 		correct_answers += 1
 		update_background()
-		if correct_answers >= 4:
+		if correct_answers >= WIN_TARGET:
 			check_win()
-	$GuessInput.text = ""
 
-func check_win():
-	if game_over:
-		return
-	game_over = true
-	$Timer.stop()
-	if correct_answers >= 4:
-		Global.add_score("actordirector", 5)
-		$NextButton.show()
-	else:
-		Global.game_lost.emit()
-		get_tree().change_scene_to_file("res://scenes/Result.tscn")
-		
-func update_background():
-	# Hide ALL backgrounds first
-	for i in range(4):
-		var bg = get_node_or_null("bg" + str(i))
-		if bg:
-			bg.visible = false
-	
-
-	if correct_answers <= 3:
-		var current_bg = get_node_or_null("bg" + str(correct_answers))
-		if current_bg:
-			current_bg.visible = true
-			print("Showing background: bg", correct_answers)
-		else:
-			print("WARNING: bg", correct_answers, " not found!")
-			
-			
-			
-
-func _on_timeout():
-	# Timer expired
-	check_win()
+	if has_node("GuessInput"):
+		$GuessInput.text = ""
 
 func find_match(input: String) -> String:
 	for title in lower_movies:
-		if input.similarity(title) >= MATCH_THRESHOLD:
+		if input == title or input in title or title in input or input.similarity(title) >= MATCH_THRESHOLD:
 			return title
 	return ""
 
-func _on_NextButton_pressed():
+func update_background() -> void:
+	# Masquer bg0 à bg4
+	for i in range(5):
+		var bg = get_node_or_null("bg" + str(i))
+		if bg:
+			bg.visible = false
+
+	# Afficher le background correspondant au score actuel
+	var target_index = clampi(correct_answers, 0, 4)
+	var current_bg = get_node_or_null("bg" + str(target_index))
+	if current_bg:
+		current_bg.visible = true
+
+func check_win() -> void:
+	if game_over:
+		return
+	game_over = true
+
+	if has_node("Timer"):
+		$Timer.stop()
+
+	if correct_answers >= WIN_TARGET:
+		Global.add_score("actordirector", 5)
+		Global.mark_won("ActorDirector")
+		if "last_result" in Global:
+			Global.last_result = "actor_win"
+		game_completed.emit(true)
+	else:
+		if "last_result" in Global:
+			Global.last_result = "times_up"
+		Global.game_lost.emit()
+		game_completed.emit(false)
+
+func _on_timeout() -> void:
+	check_win()
+
+func _on_NextButton_pressed() -> void:
 	get_tree().change_scene_to_file("res://scenes/game/map.tscn")
