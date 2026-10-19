@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0fk7u7hkadd3"
-path="res://.godot/imported/eternal 2.jpg-8340f6869e64a7cbf91f756ca4399c53.ctex"
+path="res://.godot/imported/eternal 2.jpg-39827a710d52121ae37ee26881d43532.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/color/eternal 2.jpg"
-dest_files=["res://.godot/imported/eternal 2.jpg-8340f6869e64a7cbf91f756ca4399c53.ctex"]
+source_file="res://assets/images/level 3/color/eternal 2.jpg"
+dest_files=["res://.godot/imported/eternal 2.jpg-39827a710d52121ae37ee26881d43532.ctex"]
 
 [params]
 

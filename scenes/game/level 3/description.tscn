@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ok85fqfycxlt"]
 
-[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://assets/images/level 3/baddescription.png" id="1_e2hgj"]
+[ext_resource type="Texture2D" uid="uid://bguji0unqnc46" path="res://assets/images/level 3/baddescription.png" id="1_e2hgj"]
 
 [node name="Description" type="Node2D" unique_id=2110711056]
 
@@ -32,3 +32,5 @@ offset_left = 247.0
 offset_top = 151.0
 offset_right = 897.0
 offset_bottom = 375.0
+
+[node name="Timer" type="Timer" parent="." unique_id=444771104]
