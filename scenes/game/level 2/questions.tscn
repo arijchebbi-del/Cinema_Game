@@ -1,14 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://c7pdtxxdxarow"]
+[gd_scene load_steps=7 format=3 uid="uid://c7pdtxxdxarow"]
 
 [ext_resource type="Texture2D" uid="uid://dgqpxjhikhbg3" path="res://Assets/images/level 2/WhatsApp Image 2026-10-18 at 01.24.16.jpeg" id="1_0udcr"]
 [ext_resource type="Script" uid="uid://fk372lbyycba" path="res://scripts/MovieQuestions.gd" id="1_1xgvb"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1xgvb"]
-bg_color = Color(0.39607844, 0.050980393, 0.105882354, 1)
-corner_radius_top_left = 15
-corner_radius_top_right = 15
-corner_radius_bottom_right = 15
-corner_radius_bottom_left = 15
+[ext_resource type="Texture2D" uid="uid://bj3065s1wdh1a" path="res://Assets/images/Level1/Buttons/nextButton.png" id="3_e37kc"]
 
 [sub_resource type="FontFile" id="FontFile_m773h"]
 cache/0/16/0/ascent = 0.0
@@ -24,6 +18,17 @@ cache/0/46/0/scale = 1.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nu21b"]
 bg_color = Color(0.39607844, 0.050980393, 0.105882354, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4gu60"]
+bg_color = Color(0.90588236, 0.79607844, 0.7372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -42,18 +47,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_0udcr")
-
-[node name="Button" type="Button" parent="."]
-layout_mode = 0
-offset_left = 871.0
-offset_top = 503.0
-offset_right = 1131.0
-offset_bottom = 563.0
-theme_override_colors/font_color = Color(1, 1, 1, 1)
-theme_override_colors/font_focus_color = Color(0.8755697, 0.84097326, 0.8335572, 1)
-theme_override_font_sizes/font_size = 32
-theme_override_styles/normal = SubResource("StyleBoxFlat_1xgvb")
-text = "NEXT"
 
 [node name="question label" type="Label" parent="."]
 layout_mode = 0
@@ -104,3 +97,16 @@ offset_right = 1078.0
 offset_bottom = 134.0
 theme_override_font_sizes/font_size = 55
 theme_override_styles/normal = SubResource("StyleBoxFlat_nu21b")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 920.0
+offset_top = 500.0
+offset_right = 1900.0
+offset_bottom = 940.0
+scale = Vector2(0.1625063, 0.1584588)
+theme_override_colors/font_color = Color(0.25738513, 0.14775461, 0.069636874, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_4gu60")
+text = "Next"
+icon = ExtResource("3_e37kc")
+flat = true
