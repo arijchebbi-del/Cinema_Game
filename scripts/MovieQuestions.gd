@@ -66,7 +66,7 @@ func check_win():
 		next_button.show()
 	else:
 		Global.game_lost.emit()
-		get_tree().change_scene_to_file("res://scenes/Result.tscn")
+		get_tree().change_scene_to_file("res://scenes/ui/ending-lel khesrin.tscn")
 
 func _on_timeout():
 	check_win()
