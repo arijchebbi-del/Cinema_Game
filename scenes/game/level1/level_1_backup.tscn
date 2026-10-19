@@ -74,10 +74,12 @@ icon = ExtResource("5_4mec3")
 flat = true
 
 [node name="ActorGame" parent="." instance=ExtResource("6_41sc1")]
+visible = false
 layout_mode = 0
 scale = Vector2(0.99999994, 0.99999994)
 
 [node name="DirectorGame" parent="." instance=ExtResource("7_60dwx")]
+visible = false
 layout_mode = 0
 
 [node name="CompleteScreen" type="Control" parent="."]

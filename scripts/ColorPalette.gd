@@ -2,7 +2,7 @@ extends Control
 
 var game_over = false
 var correct_answers = 0
-const MATCH_THRESHOLD = 0.8
+const MATCH_THRESHOLD = 0.75
 var answer : String
 
 @onready var palette: TextureRect = $Palette
@@ -70,7 +70,7 @@ func check_win():
 		return
 	game_over = true
 	$Timer.stop()
-	if correct_answers >= 4:
+	if correct_answers == 1:
 		Global.add_score("guessmovie", 5)
 		$NextButton.show()
 	else:
