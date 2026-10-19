@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ijovrlgp4s3a"
-path="res://.godot/imported/green book 2.jpg-dd32d37f643d14939914d96a48fda78c.ctex"
+path="res://.godot/imported/green book 2.jpg-3081fff42a73e1fc45173651fb3da6f5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/color/green book 2.jpg"
-dest_files=["res://.godot/imported/green book 2.jpg-dd32d37f643d14939914d96a48fda78c.ctex"]
+source_file="res://assets/images/level 3/color/green book 2.jpg"
+dest_files=["res://.godot/imported/green book 2.jpg-3081fff42a73e1fc45173651fb3da6f5.ctex"]
 
 [params]
 

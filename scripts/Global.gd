@@ -1,5 +1,5 @@
 extends Node
-
+var next_game: String = ""
 var score: int = 0
 var games_won: int = 0
 var total_games: int = 3

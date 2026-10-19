@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmt01a15bhokk"
-path="res://.godot/imported/elizabeth olsen.jpg-62c729e3887a22fa593b7d1354ac6199.ctex"
+path="res://.godot/imported/elizabeth olsen.jpg-81886fe511bd53612e7f310742db19ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/elizabeth olsen.jpg"
-dest_files=["res://.godot/imported/elizabeth olsen.jpg-62c729e3887a22fa593b7d1354ac6199.ctex"]
+source_file="res://assets/images/level 3/cast/elizabeth olsen.jpg"
+dest_files=["res://.godot/imported/elizabeth olsen.jpg-81886fe511bd53612e7f310742db19ad.ctex"]
 
 [params]
 

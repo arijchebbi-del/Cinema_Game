@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba0vh8c71siub"
-path="res://.godot/imported/DirectorWon.png-5575b9fadf2665031c7f89784679dac7.ctex"
+path="res://.godot/imported/DirectorWon.png-703962f3d4468653fa2d6a417f353f92.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/Level1/Result/DirectorWon.png"
-dest_files=["res://.godot/imported/DirectorWon.png-5575b9fadf2665031c7f89784679dac7.ctex"]
+source_file="res://assets/images/Level1/Result/DirectorWon.png"
+dest_files=["res://.godot/imported/DirectorWon.png-703962f3d4468653fa2d6a417f353f92.ctex"]
 
 [params]
 

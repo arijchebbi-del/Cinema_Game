@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bt4u6ryf37fnd"
-path="res://.godot/imported/amara karan.jpg-fed0ab32f62f19cff83c2dd18a045497.ctex"
+path="res://.godot/imported/amara karan.jpg-392a0184755ce719a7d6bfb6cbc1927e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/amara karan.jpg"
-dest_files=["res://.godot/imported/amara karan.jpg-fed0ab32f62f19cff83c2dd18a045497.ctex"]
+source_file="res://assets/images/level 3/cast/amara karan.jpg"
+dest_files=["res://.godot/imported/amara karan.jpg-392a0184755ce719a7d6bfb6cbc1927e.ctex"]
 
 [params]
 
