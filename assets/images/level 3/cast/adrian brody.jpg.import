@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gquny0gmi7ma"
-path="res://.godot/imported/adrian brody.jpg-833c101144dd2fc3f22cc4127600b38f.ctex"
+path="res://.godot/imported/adrian brody.jpg-e5a4fbb54e0c3cbe4c779eff3b42b532.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/adrian brody.jpg"
-dest_files=["res://.godot/imported/adrian brody.jpg-833c101144dd2fc3f22cc4127600b38f.ctex"]
+source_file="res://Assets/images/level 3/cast/adrian brody.jpg"
+dest_files=["res://.godot/imported/adrian brody.jpg-e5a4fbb54e0c3cbe4c779eff3b42b532.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwoimu0gjao52"
-path="res://.godot/imported/david_lynch.jpg-4c00da9e3684f67452b7397a0c8c9abb.ctex"
+path="res://.godot/imported/david_lynch.jpg-e6ec228770e8955463778c37b8dff69f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Level1/Main/Directors/david_lynch.jpg"
-dest_files=["res://.godot/imported/david_lynch.jpg-4c00da9e3684f67452b7397a0c8c9abb.ctex"]
+source_file="res://Assets/images/Level1/Main/Directors/david_lynch.jpg"
+dest_files=["res://.godot/imported/david_lynch.jpg-e6ec228770e8955463778c37b8dff69f.ctex"]
 
 [params]
 

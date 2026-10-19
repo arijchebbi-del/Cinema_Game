@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3va6wkglh7jj"
-path="res://.godot/imported/julia_roberts.jpg-6263c3a5be468b7bd81308f4d04b6f83.ctex"
+path="res://.godot/imported/julia_roberts.jpg-307098308f5ea8e3bb6be81986eb6eda.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Level1/Main/Actors/julia_roberts.jpg"
-dest_files=["res://.godot/imported/julia_roberts.jpg-6263c3a5be468b7bd81308f4d04b6f83.ctex"]
+source_file="res://Assets/images/Level1/Main/Actors/julia_roberts.jpg"
+dest_files=["res://.godot/imported/julia_roberts.jpg-307098308f5ea8e3bb6be81986eb6eda.ctex"]
 
 [params]
 

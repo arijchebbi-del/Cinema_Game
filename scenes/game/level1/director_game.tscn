@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://drnfuterb7s0j"]
 
-[ext_resource type="Script" uid="uid://b3r0cc0jroo2d" path="res://scripts/Actors.gd" id="1_8apck"]
 [ext_resource type="Texture2D" uid="uid://bih3dwoconyb8" path="res://Assets/images/Level1/Main/bg/bg0.png" id="1_57otq"]
+[ext_resource type="Script" uid="uid://by4iotawnosxj" path="res://scripts/Directors.gd" id="1_mh3qk"]
 [ext_resource type="Texture2D" uid="uid://rnalcpye0nhd" path="res://Assets/images/Level1/Main/bg/bg1.png" id="2_8apck"]
 [ext_resource type="Texture2D" uid="uid://c2sat5hlbbw8r" path="res://Assets/images/Level1/Main/bg/bg2.png" id="3_ncih7"]
 [ext_resource type="Texture2D" uid="uid://cked81owt0pgs" path="res://Assets/images/Level1/Main/bg/bg3.png" id="4_81rbm"]
@@ -47,11 +47,14 @@ corner_radius_top_right = 3
 corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 
-[node name="DirectorGame" type="Node2D"]
-script = ExtResource("1_8apck")
+[node name="DirectorGame" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_mh3qk")
 
 [node name="bg0" type="TextureRect" parent="."]
 visible = false
+layout_mode = 0
 offset_top = 656.0
 offset_right = 1152.0
 offset_bottom = 2704.0
@@ -61,6 +64,7 @@ texture = ExtResource("1_57otq")
 
 [node name="bg1" type="TextureRect" parent="."]
 visible = false
+layout_mode = 0
 offset_top = 656.0
 offset_right = 1152.0
 offset_bottom = 2704.0
@@ -69,6 +73,7 @@ scale = Vector2(0.5710533, 0.559423)
 texture = ExtResource("2_8apck")
 
 [node name="bg2" type="TextureRect" parent="."]
+layout_mode = 0
 offset_top = 656.0
 offset_right = 1152.0
 offset_bottom = 2704.0
@@ -78,6 +83,7 @@ texture = ExtResource("3_ncih7")
 
 [node name="bg3" type="TextureRect" parent="."]
 visible = false
+layout_mode = 0
 offset_top = 656.0
 offset_right = 1152.0
 offset_bottom = 2704.0
@@ -86,6 +92,7 @@ scale = Vector2(0.5710533, 0.559423)
 texture = ExtResource("4_81rbm")
 
 [node name="DirectorPic" type="TextureRect" parent="."]
+layout_mode = 0
 offset_left = 391.0
 offset_top = 183.0
 offset_right = 438.17255
@@ -103,6 +110,7 @@ texture = ExtResource("7_jib3l")
 expand_mode = 1
 
 [node name="ActorName" type="Label" parent="."]
+layout_mode = 0
 offset_left = 389.0
 offset_top = 479.0
 offset_right = 743.0
@@ -112,6 +120,7 @@ theme_override_font_sizes/font_size = 17
 horizontal_alignment = 1
 
 [node name="GuessInput" type="LineEdit" parent="."]
+layout_mode = 0
 offset_left = 348.0
 offset_top = 509.0
 offset_right = 788.0
@@ -122,6 +131,7 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_2ncca")
 placeholder_text = "Type a movie title..."
 
 [node name="TimerLabel" type="Label" parent="."]
+layout_mode = 0
 offset_left = 757.0
 offset_top = 44.0
 offset_right = 902.0
@@ -136,6 +146,7 @@ vertical_alignment = 1
 [node name="Timer" type="Timer" parent="."]
 
 [node name="NextButton" type="Button" parent="."]
+layout_mode = 0
 offset_left = 491.0
 offset_top = 575.0
 offset_right = 1471.0
