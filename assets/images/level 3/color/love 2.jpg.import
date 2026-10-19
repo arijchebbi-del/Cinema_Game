@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcvrjswq2ekcv"
-path="res://.godot/imported/love 2.jpg-6c391d0dcec68bd59885e07c494afe51.ctex"
+path="res://.godot/imported/love 2.jpg-a0448cbccb59bba0a178f58a9d113a5d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/color/love 2.jpg"
-dest_files=["res://.godot/imported/love 2.jpg-6c391d0dcec68bd59885e07c494afe51.ctex"]
+source_file="res://Assets/images/level 3/color/love 2.jpg"
+dest_files=["res://.godot/imported/love 2.jpg-a0448cbccb59bba0a178f58a9d113a5d.ctex"]
 
 [params]
 

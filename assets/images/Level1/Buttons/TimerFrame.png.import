@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uldutxc8fmlw"
-path="res://.godot/imported/TimerFrame.png-b135c7e9140d21e1034ef3937cf5e1cb.ctex"
+path="res://.godot/imported/TimerFrame.png-4c448a95c165a797d90fb4562f9e62fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Level1/Buttons/TimerFrame.png"
-dest_files=["res://.godot/imported/TimerFrame.png-b135c7e9140d21e1034ef3937cf5e1cb.ctex"]
+source_file="res://Assets/images/Level1/Buttons/TimerFrame.png"
+dest_files=["res://.godot/imported/TimerFrame.png-4c448a95c165a797d90fb4562f9e62fd.ctex"]
 
 [params]
 

@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://dd5oqye5g4gny"]
+[gd_scene load_steps=0 format=3 uid="uid://dd5oqye5g4gny"]
 
 [ext_resource type="VideoStream" uid="uid://cem3hyefa6fqu" path="res://assets/videos/transition.ogv" id="1_px6ob"]
 

@@ -79,11 +79,11 @@ func _on_game_won(_game_name: String):
 	# Update display when game is won
 	update_game_select_display()
 
-func _on_GuessMovieButton_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/GuessMovie.tscn")
+func _on_Lock1_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/game/level3/options.tscn")
 
-func _on_MovieQuestionsButton_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/MovieQuestions.tscn")
+func _on_Lock2_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/game/level 2/level 2;film posters.tscn")
 
-func _on_ActorDirectorButton_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/ActorDirector.tscn")
+func _on_Lock3_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/game/level1/level_1_backup.tscn")

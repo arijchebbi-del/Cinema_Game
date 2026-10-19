@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqw8sth6vhsbu"
-path="res://.godot/imported/lalaland 1.jpg-915f505f8eaee4c512068e4f22b8b310.ctex"
+path="res://.godot/imported/lalaland 1.jpg-dbd631e10be59a50c6f09a509f3fbe8b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/color/lalaland 1.jpg"
-dest_files=["res://.godot/imported/lalaland 1.jpg-915f505f8eaee4c512068e4f22b8b310.ctex"]
+source_file="res://Assets/images/level 3/color/lalaland 1.jpg"
+dest_files=["res://.godot/imported/lalaland 1.jpg-dbd631e10be59a50c6f09a509f3fbe8b.ctex"]
 
 [params]
 
