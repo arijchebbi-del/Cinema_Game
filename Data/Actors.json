@@ -1,7 +1,7 @@
 [
   {
 	"actor": "Al Pacino",
-	"pic path": "res://images/Level1/Main/Actors//Main/Actors/al_pacino.jpg",
+	"pic path": "res://assests/images/Level1/Main/Actors/al_pacino.jpg",
 	"movies they starred in": [
 	  "The Godfather",
 	  "Once Upon a Time... in Hollywood",
@@ -123,7 +123,7 @@
   },
   {
 	"actor": "Robin Williams",
-	"pic path": "res://images/Level1/Main/Actors/robin_williams.jpg",
+	"pic path": "res://assests/images/Level1/Main/Actors/robin_williams.jpg",
 	"movies they starred in": [
 	  "Dead Poets Society",
 	  "Good Will Hunting",
@@ -321,7 +321,7 @@
   },
   {
 	"actor": "Robert De Niro",
-	"pic path": "res://images/Level1/Main/Actors/robert_de_niro.jpg",
+	"pic path": "res://assets/images/Level1/Main/Actors/robert_de_niro.jpg",
 	"movies they starred in": [
 	  "Joker",
 	  "Taxi Driver",
@@ -552,7 +552,7 @@
   },
   {
 	"actor": "Jim Carrey",
-	"pic path": "res://images/Level1/Main/Actors/jim_carrey.jpg",
+	"pic path": "res://assets/images/Level1/Main/Actors/jim_carrey.jpg",
 	"movies they starred in": [
 	  "The Truman Show",
 	  "Eternal Sunshine of the Spotless Mind",
@@ -649,7 +649,7 @@
   },
   {
 	"actor": "Natalie Portman",
-	"pic path": "res://images/Level1/Main/Actors/natalie_portman.jpg",
+	"pic path": "res://assets/images/Level1/Main/Actors/natalie_portman.jpg",
 	"movies they starred in": [
 	  "Black Swan",
 	  "Avengers: Endgame",
@@ -727,7 +727,7 @@
   },
   {
 	"actor": "Julia Roberts",
-	"pic path": "res://images/Level1/Main/Actors/julia_roberts.jpg",
+	"pic path": "res://assets/images/Level1/Main/Actors/julia_roberts.jpg",
 	"movies they starred in": [
 	  "Notting Hill",
 	  "Ocean's Eleven",
@@ -818,7 +818,7 @@
   },
   {
 	"actor": "Saoirse Ronan",
-	"pic path": "res://images/Level1/Main/Actors/saoirse_ronan.jpg",
+	"pic path": "res://assets/images/Level1/Main/Actors/saoirse_ronan.jpg",
 	"movies they starred in": [
 	  "The Grand Budapest Hotel",
 	  "Lady Bird",
@@ -866,7 +866,7 @@
   },
   {
 	"actor": "Helena Bonham Carter",
-	"pic path": "res://images/Level1/Main/Actors/helena_bonham_carter.jpg",
+	"pic path": "res://assets/images/Level1/Main/Actors/helena_bonham_carter.jpg",
 	"movies they starred in": [
 	  "Fight Club",
 	  "Harry Potter and the Order of the Phoenix",
