@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://drmbw2kg488ui"]
+
+[ext_resource type="Texture2D" uid="uid://mmvvt2cgnsbf" path="res://assets/images/startscene.png" id="1_h1f32"]
+
+[node name="Starting" type="Node2D" unique_id=957635168]
+
+[node name="Startscene" type="Sprite2D" parent="." unique_id=947546381]
+position = Vector2(574.00006, 320.75)
+scale = Vector2(1.3874091, 1.1176976)
+texture = ExtResource("1_h1f32")
+
+[node name="Button" type="Button" parent="." unique_id=987489601]
+offset_left = 978.0
+offset_top = 522.0
+offset_right = 1063.0
+offset_bottom = 577.0
+theme_override_colors/font_color = Color(0.7137255, 0.6431373, 0.18431373, 1)
+theme_override_font_sizes/font_size = 32
+text = "YES?
+"
+
+[node name="Label" type="Label" parent="." unique_id=1582554231]
+offset_left = 63.0
+offset_top = 514.0
+offset_right = 168.0
+offset_bottom = 585.0
+theme_override_colors/font_color = Color(0.6039216, 0.5294118, 0.16470589, 1)
+theme_override_font_sizes/font_size = 24
+text = "NOT AN 
+OPTION"
