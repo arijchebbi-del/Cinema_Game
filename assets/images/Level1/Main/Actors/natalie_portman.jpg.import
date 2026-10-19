@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3cju10cjj8cm"
-path="res://.godot/imported/natalie_portman.jpg-6fac788e4523dbd52a8dd0860a25bd39.ctex"
+path="res://.godot/imported/natalie_portman.jpg-b7b1699a50217250d40d80aa842b4fb5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/Level1/Main/Actors/natalie_portman.jpg"
-dest_files=["res://.godot/imported/natalie_portman.jpg-6fac788e4523dbd52a8dd0860a25bd39.ctex"]
+source_file="res://assets/images/Level1/Main/Actors/natalie_portman.jpg"
+dest_files=["res://.godot/imported/natalie_portman.jpg-b7b1699a50217250d40d80aa842b4fb5.ctex"]
 
 [params]
 

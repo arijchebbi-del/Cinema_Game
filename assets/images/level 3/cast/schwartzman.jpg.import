@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnom4ltvgrt3l"
-path="res://.godot/imported/schwartzman.jpg-b9471cdc0fffe3dd748330b7d9da4932.ctex"
+path="res://.godot/imported/schwartzman.jpg-e9e0456f9993602b5e035c8c9957491f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/schwartzman.jpg"
-dest_files=["res://.godot/imported/schwartzman.jpg-b9471cdc0fffe3dd748330b7d9da4932.ctex"]
+source_file="res://assets/images/level 3/cast/schwartzman.jpg"
+dest_files=["res://.godot/imported/schwartzman.jpg-e9e0456f9993602b5e035c8c9957491f.ctex"]
 
 [params]
 

@@ -164,13 +164,12 @@ vertical_alignment = 1
 
 [node name="NextButton" type="Button" parent="." unique_id=641068208]
 layout_mode = 0
-offset_left = 491.0
-offset_top = 575.0
-offset_right = 1471.0
-offset_bottom = 1015.0
+offset_left = 485.0
+offset_top = 505.0
+offset_right = 1465.0
+offset_bottom = 945.0
 scale = Vector2(0.1625063, 0.1584588)
 theme_override_colors/font_color = Color(0.25738513, 0.14775461, 0.069636874, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_45om4")
-text = "Next"
 icon = ExtResource("8_ovc5n")
 flat = true

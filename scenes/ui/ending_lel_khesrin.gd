@@ -12,7 +12,7 @@ func _ready():
 	photo.hide()
 	button.hide()
 	points_label.hide()
-	points_label.text = Global.score
+	points_label.text = str(Global.score)
 
 	video.finished.connect(_on_video_finished)
 

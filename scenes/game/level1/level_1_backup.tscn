@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://bjaljbfyd6ijw" path="res://assets/images/Level1/Buttons/directorButton.png" id="5_4mec3"]
 [ext_resource type="PackedScene" uid="uid://bg8aqfseg7k2i" path="res://scenes/game/level1/actor_game.tscn" id="6_41sc1"]
 [ext_resource type="PackedScene" uid="uid://drnfuterb7s0j" path="res://scenes/game/level1/director_game.tscn" id="7_60dwx"]
-[ext_resource type="PackedScene" uid="uid://bo0v62un24xw0" path="res://scenes/game/level1/result.tscn" id="8_1leac"]
 
 [node name="Level1" type="Control" unique_id=874600053]
 layout_mode = 3
@@ -78,7 +77,4 @@ layout_mode = 0
 scale = Vector2(0.99999994, 0.99999994)
 
 [node name="DirectorGame" parent="." unique_id=1744014466 instance=ExtResource("7_60dwx")]
-layout_mode = 0
-
-[node name="CompleteScreen" parent="." unique_id=148751940 instance=ExtResource("8_1leac")]
 layout_mode = 0
