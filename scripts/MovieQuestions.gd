@@ -63,10 +63,14 @@ func check_win():
 	timer.stop()
 	if correct_answers >= 1:
 		Global.add_score("moviequestions", 5)
-		next_button.show()
+		if Global.check_victory():
+			get_tree().change_scene_to_file("res://scenes/ui/ending lel rebhin.tscn")
+		else:
+			next_button.show()
 	else:
 		Global.game_lost.emit()
 		get_tree().change_scene_to_file("res://scenes/ui/ending-lel khesrin.tscn")
+	
 
 func _on_timeout():
 	check_win()
