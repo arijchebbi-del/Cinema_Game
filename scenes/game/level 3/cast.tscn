@@ -1,10 +1,10 @@
-[gd_scene load_steps=0 format=3 uid="uid://eqwjirufdply"]
+[gd_scene format=3 uid="uid://eqwjirufdply"]
 
-[ext_resource type="Texture2D" uid="uid://bguji0unqnc46" path="res://assets/images/level 3/baddescription.png" id="1_w8pms"]
+[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://assets/images/level 3/font1.png" id="1_w8pms"]
 
 [node name="Cast" type="Node2D" unique_id=929036792]
 
-[node name="Baddescription" type="Sprite2D" parent="." unique_id=389334080]
+[node name="font1" type="Sprite2D" parent="." unique_id=389334080]
 position = Vector2(576.25, 324.25)
 scale = Vector2(1.1125604, 1.1213425)
 texture = ExtResource("1_w8pms")

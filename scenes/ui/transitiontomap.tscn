@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dd5oqye5g4gny"]
+
+[ext_resource type="VideoStream" uid="uid://cem3hyefa6fqu" path="res://assets/videos/transition.ogv" id="1_px6ob"]
+
+[node name="Transition" type="Node2D" unique_id=734492873]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=147385410]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = -8.0
+offset_right = 1165.0
+offset_bottom = 650.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("1_px6ob")
+autoplay = true
+expand = true
