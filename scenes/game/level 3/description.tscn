@@ -40,7 +40,7 @@ offset_right = 751.0
 offset_bottom = 546.0
 theme_override_colors/font_color = Color(0.47843137, 0.3019608, 0.06666667, 1)
 theme_override_font_sizes/font_size = 23
-text = "I DARE YOU TO TYPE THE CORRECT ANSWER"
+placeholder_text = "I DARE YOU TO TYPE THE CORRECT ANSWER"
 
 [node name="Label" type="Label" parent="." unique_id=641222673]
 layout_mode = 0

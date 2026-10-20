@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdh43f7yl05tn"
-path="res://.godot/imported/robert_de_niro.jpg-609402aa4039d658934a0ab600206457.ctex"
+path="res://.godot/imported/robert_de_niro.jpg-57185ac4efd307ffba9f5e31e59431f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/Level1/Main/Actors/robert_de_niro.jpg"
-dest_files=["res://.godot/imported/robert_de_niro.jpg-609402aa4039d658934a0ab600206457.ctex"]
+source_file="res://assets/images/Level1/Main/Actors/robert_de_niro.jpg"
+dest_files=["res://.godot/imported/robert_de_niro.jpg-57185ac4efd307ffba9f5e31e59431f4.ctex"]
 
 [params]
 

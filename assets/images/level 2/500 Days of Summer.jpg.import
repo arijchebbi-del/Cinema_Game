@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp8fwf0m0cjfb"
-path="res://.godot/imported/500 Days of Summer.jpg-1c639775665422cfe360cb3038f4acd9.ctex"
+path="res://.godot/imported/500 Days of Summer.jpg-df0a4eff134e3a22488300e93ca8a9ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 2/500 Days of Summer.jpg"
-dest_files=["res://.godot/imported/500 Days of Summer.jpg-1c639775665422cfe360cb3038f4acd9.ctex"]
+source_file="res://assets/images/level 2/500 Days of Summer.jpg"
+dest_files=["res://.godot/imported/500 Days of Summer.jpg-df0a4eff134e3a22488300e93ca8a9ea.ctex"]
 
 [params]
 
