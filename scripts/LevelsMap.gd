@@ -3,11 +3,11 @@ extends Control
 const GAMES = ["GuessMovie", "MovieQuestions", "ActorDirector"]
 
 
-# Which button opens which game (check this mapping!)
+# Which button opens which game
 @onready var buttons = {
-	"GuessMovie": $Lock3,
+	"ActorDirector": $Lock3,
 	"MovieQuestions": $Lock2,
-	"ActorDirector": $Lock1,
+	"GuessMovie": $Lock1,
 }
 
 
@@ -29,19 +29,10 @@ func update_button_states():
 		if not Global.is_game_won(g):
 			remaining.append(g)
 
-	var won_count = GAMES.size() - remaining.size()
 
-	if won_count == 1:
-		# Pick the second game randomly, but only once
-		if Global.next_game == "" or Global.is_game_won(Global.next_game):
-			Global.next_game = remaining.pick_random()
-		for g in GAMES:
-			buttons[g].disabled = (g != Global.next_game)
-	else:
-		# 0 won: free choice. 2 won: only the last one remains.
-		Global.next_game = ""
-		for g in GAMES:
-			buttons[g].disabled = Global.is_game_won(g)
+	Global.next_game = ""
+	for g in GAMES:
+		buttons[g].disabled = Global.is_game_won(g)
 
 func _on_game_won(_game_name: String):
 	update_button_states()

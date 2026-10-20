@@ -1,4 +1,3 @@
-
 extends Control
 
 @onready var video = $VideoStreamPlayer
@@ -14,6 +13,7 @@ func _ready():
 	points_label.hide()
 	points_label.text = str(Global.score)
 
+	button.pressed.connect(_on_Button_pressed)
 	video.finished.connect(_on_video_finished)
 
 func _on_video_finished():
@@ -22,11 +22,12 @@ func _on_video_finished():
 
 	button.show()
 	points_label.show()
-	points_label.text = Global.score
+	points_label.text = str(Global.score)
 
 	var tween = create_tween()
 	tween.tween_property(photo, "modulate:a", 1.0, 1.5)
 
-func update_points(new_points: int):
-	points = new_points
-	points_label.text = Global.score
+
+
+func _on_Button_pressed():
+	get_tree().change_scene_to_file("res://scenes/ui/starting.tscn")

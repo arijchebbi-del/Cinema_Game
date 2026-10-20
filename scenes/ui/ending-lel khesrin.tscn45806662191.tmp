@@ -1,0 +1,64 @@
+[gd_scene load_steps=6 format=3 uid="uid://cvfkc7bkjt2wg"]
+
+[ext_resource type="Script" uid="uid://dy2khra31q34u" path="res://scenes/ui/ending_lel_khesrin.gd" id="1_gx37r"]
+[ext_resource type="VideoStream" uid="uid://bdsunus4c3sgl" path="res://Assets/videos/interface-el-losers.ogv" id="1_r6wl7"]
+[ext_resource type="Texture2D" uid="uid://d4wu0tl1mvfc" path="res://Assets/images/WhatsApp Image 2026-10-18 at 13.13.13.jpeg" id="2_dr1pb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gx37r"]
+bg_color = Color(0.39607844, 0.050980393, 0.105882354, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[sub_resource type="FontVariation" id="FontVariation_s66jn"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gx37r")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("1_r6wl7")
+autoplay = true
+expand = true
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_dr1pb")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 359.0
+offset_top = 458.0
+offset_right = 839.0
+offset_bottom = 533.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_focus_color = Color(0.8755697, 0.84097326, 0.8335572, 1)
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxFlat_gx37r")
+text = "PLAY AGAIN (an order)"
+
+[node name="points" type="Label" parent="."]
+layout_mode = 0
+offset_left = 545.0
+offset_top = 311.0
+offset_right = 733.0
+offset_bottom = 416.0
+theme_override_fonts/font = SubResource("FontVariation_s66jn")
+theme_override_font_sizes/font_size = 78
