@@ -1,18 +1,18 @@
-[gd_scene format=3 uid="uid://c1mwdlsnjl5x1"]
+[gd_scene load_steps=7 format=3 uid="uid://c1mwdlsnjl5x1"]
 
-[ext_resource type="Texture2D" uid="uid://cdfmy7gdmwj62" path="res://assets/images/MapScene/BaseMap.jpg" id="1_3fewy"]
+[ext_resource type="Texture2D" uid="uid://cdfmy7gdmwj62" path="res://Assets/images/MapScene/BaseMap.jpg" id="1_3fewy"]
 [ext_resource type="Script" uid="uid://0i8vpxuhmyek" path="res://scripts/LevelsMap.gd" id="1_043wi"]
-[ext_resource type="Texture2D" uid="uid://c5gr1cdd0lpba" path="res://assets/images/MapScene/Lock.png" id="2_fodlk"]
-[ext_resource type="Texture2D" uid="uid://ko58jdo1vmhn" path="res://assets/images/MapScene/t1.png" id="4_7g61j"]
-[ext_resource type="Texture2D" uid="uid://p13h70psjgki" path="res://assets/images/MapScene/T2.png" id="5_8kpgt"]
-[ext_resource type="Texture2D" uid="uid://bnmg212yhfvu" path="res://assets/images/MapScene/tt3.png" id="6_jhmgq"]
+[ext_resource type="Texture2D" uid="uid://c5gr1cdd0lpba" path="res://Assets/images/MapScene/Lock.png" id="2_fodlk"]
+[ext_resource type="Texture2D" uid="uid://ko58jdo1vmhn" path="res://Assets/images/MapScene/t1.png" id="4_7g61j"]
+[ext_resource type="Texture2D" uid="uid://p13h70psjgki" path="res://Assets/images/MapScene/T2.png" id="5_8kpgt"]
+[ext_resource type="Texture2D" uid="uid://bnmg212yhfvu" path="res://Assets/images/MapScene/tt3.png" id="6_jhmgq"]
 
-[node name="Map" type="Control" unique_id=149285052]
+[node name="Map" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_043wi")
 
-[node name="Background" type="TextureRect" parent="." unique_id=1736980398]
+[node name="Background" type="TextureRect" parent="."]
 layout_mode = 0
 offset_top = -3.0
 offset_right = 1365.0
@@ -20,7 +20,7 @@ offset_bottom = 765.0
 scale = Vector2(0.85027176, 0.8422431)
 texture = ExtResource("1_3fewy")
 
-[node name="Lock1" type="TextureButton" parent="." unique_id=1718332649]
+[node name="Lock1" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 170.0
 offset_top = 61.0
@@ -30,7 +30,7 @@ scale = Vector2(0.42938045, 0.41526905)
 texture_normal = ExtResource("2_fodlk")
 ignore_texture_size = true
 
-[node name="Lock2" type="TextureButton" parent="." unique_id=415427799]
+[node name="Lock2" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 547.99994
 offset_top = 104.99999
@@ -41,7 +41,7 @@ scale = Vector2(0.50896966, 0.42859218)
 texture_normal = ExtResource("2_fodlk")
 ignore_texture_size = true
 
-[node name="Lock3" type="TextureButton" parent="." unique_id=767459638]
+[node name="Lock3" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 64.00001
 offset_top = 330.00003
@@ -52,17 +52,17 @@ scale = Vector2(0.48587567, 0.4131348)
 texture_normal = ExtResource("2_fodlk")
 ignore_texture_size = true
 
-[node name="T1" type="Sprite2D" parent="." unique_id=392689385]
+[node name="T1" type="Sprite2D" parent="."]
 position = Vector2(752, 113)
 scale = Vector2(0.7045977, 0.72988504)
 texture = ExtResource("4_7g61j")
 
-[node name="T2" type="Sprite2D" parent="." unique_id=53481017]
+[node name="T2" type="Sprite2D" parent="."]
 position = Vector2(127.00003, 40)
 scale = Vector2(0.7045977, 0.72988504)
 texture = ExtResource("5_8kpgt")
 
-[node name="T3" type="Sprite2D" parent="." unique_id=1740790246]
+[node name="T3" type="Sprite2D" parent="."]
 position = Vector2(135, 515)
 scale = Vector2(0.6557471, 0.61321837)
 texture = ExtResource("6_jhmgq")

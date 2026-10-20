@@ -34,7 +34,7 @@ func _ready() -> void:
 	win_text.hide()
 	loss_text.hide()
 	answer_container.modulate.a = 0.0
-	next_button.disabled = true
+	next_button.disabled = false
 	show_result(Global.last_won)
 
 
@@ -59,11 +59,11 @@ func _build_answer_text(won: bool) -> String:
 
 	match game:
 		"cast":
-			text = "The movie was:%s" % title
+			text = "The movie was: %s" % title
 		"palette":
-			text = "The movie was:%s" % title
+			text = "The movie was: %s" % title
 		"plot":
-			text = "The movie was:%s" % title
+			text = "The movie was: %s" % title
 		"question":
 			var ans := _get_question_answer()
 			if ans == "":
@@ -120,13 +120,12 @@ func _play_intro(won: bool) -> void:
 		_tween.kill()
 
 	var banner: Control = win_text if won else loss_text
+	banner.show()
 	banner.modulate.a = 0.0
 	banner.pivot_offset = banner.size / 2.0
 	banner.scale = Vector2(0.6, 0.6)
 	answer_container.modulate.a = 0.0
-	next_button.disabled = false
-	
-	
+	next_button.disabled = true
 
 	_tween = create_tween()
 	_tween.set_parallel(true)
@@ -134,9 +133,10 @@ func _play_intro(won: bool) -> void:
 	_tween.tween_property(banner, "scale", Vector2.ONE, 0.4) \
 		.set_trans(Tween.TRANS_BACK).set_ease(Tween.EASE_OUT)
 	_tween.chain().tween_property(answer_container, "modulate:a", 1.0, 0.4)
-	_tween.chain().tween_callback(func(): next_button.disabled = false)
-
-
+	_tween.tween_callback(func(): next_button.disabled = false)
+	
+	
+	
 # ---------------- Navigation ----------------
 func _on_next_button_pressed() -> void:
 	next_button.disabled = false
