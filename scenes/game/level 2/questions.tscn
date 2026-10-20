@@ -1,10 +1,19 @@
-[gd_scene load_steps=7 format=3 uid="uid://c7pdtxxdxarow"]
+[gd_scene format=3 uid="uid://c7pdtxxdxarow"]
 
-[ext_resource type="Texture2D" uid="uid://dgqpxjhikhbg3" path="res://Assets/images/level 2/WhatsApp Image 2026-10-18 at 01.24.16.jpeg" id="1_0udcr"]
+[ext_resource type="Texture2D" uid="uid://dgqpxjhikhbg3" path="res://assets/images/level 2/WhatsApp Image 2026-10-18 at 01.24.16.jpeg" id="1_0udcr"]
 [ext_resource type="Script" uid="uid://fk372lbyycba" path="res://scripts/MovieQuestions.gd" id="1_1xgvb"]
-[ext_resource type="Texture2D" uid="uid://bj3065s1wdh1a" path="res://Assets/images/Level1/Buttons/nextButton.png" id="3_e37kc"]
+[ext_resource type="Texture2D" uid="uid://bj3065s1wdh1a" path="res://assets/images/Level1/Buttons/nextButton.png" id="3_e37kc"]
 
 [sub_resource type="FontFile" id="FontFile_m773h"]
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
 cache/0/16/0/ascent = 0.0
 cache/0/16/0/descent = 0.0
 cache/0/16/0/underline_position = 0.0
@@ -30,7 +39,7 @@ corner_radius_top_right = 3
 corner_radius_bottom_right = 3
 corner_radius_bottom_left = 3
 
-[node name="Control" type="Control"]
+[node name="Control" type="Control" unique_id=1718176434]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -39,7 +48,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_1xgvb")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=285642016]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -48,7 +57,7 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("1_0udcr")
 
-[node name="question label" type="Label" parent="."]
+[node name="question label" type="Label" parent="." unique_id=1148394410]
 layout_mode = 0
 offset_left = 389.0
 offset_top = 105.0
@@ -58,7 +67,7 @@ theme_override_fonts/font = SubResource("FontFile_m773h")
 theme_override_font_sizes/font_size = 46
 autowrap_mode = 3
 
-[node name="answer" type="LineEdit" parent="."]
+[node name="answer" type="LineEdit" parent="." unique_id=288018954]
 layout_mode = 0
 offset_left = 74.0
 offset_top = 507.0
@@ -66,16 +75,16 @@ offset_right = 846.0
 offset_bottom = 579.0
 theme_override_colors/font_color = Color(0.99982303, 0.33350104, 0.26771772, 1)
 theme_override_font_sizes/font_size = 33
-text = "mind to type your answer?"
+placeholder_text = "Mind to type your answer?"
 
-[node name="poster frame" type="Panel" parent="."]
+[node name="poster frame" type="Panel" parent="." unique_id=949401082]
 layout_mode = 0
 offset_left = 207.0
 offset_top = 89.0
 offset_right = 366.0
 offset_bottom = 317.0
 
-[node name="poster image" type="TextureRect" parent="poster frame"]
+[node name="poster image" type="TextureRect" parent="poster frame" unique_id=1124735171]
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.0
@@ -86,10 +95,10 @@ grow_horizontal = 2
 grow_vertical = 2
 expand_mode = 1
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="." unique_id=604736681]
 one_shot = true
 
-[node name="TimerLabel" type="Label" parent="."]
+[node name="TimerLabel" type="Label" parent="." unique_id=878532438]
 layout_mode = 0
 offset_left = 907.0
 offset_top = 58.0
@@ -98,7 +107,7 @@ offset_bottom = 134.0
 theme_override_font_sizes/font_size = 55
 theme_override_styles/normal = SubResource("StyleBoxFlat_nu21b")
 
-[node name="Button" type="Button" parent="."]
+[node name="Button" type="Button" parent="." unique_id=1028115125]
 layout_mode = 0
 offset_left = 892.0
 offset_top = 495.0
