@@ -1,6 +1,6 @@
 extends Control
 
-const MATCH_THRESHOLD = 0.7
+const MATCH_THRESHOLD = 0.6
 
 var game_over = false
 var correct_answers = 0

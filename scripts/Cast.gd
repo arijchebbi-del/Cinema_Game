@@ -1,6 +1,6 @@
 extends Node
 
-const MATCH_THRESHOLD = 0.75
+const MATCH_THRESHOLD = 0.6
 const TIME_LIMIT = 40.0
 const ENDING_SCENE = "res://scenes/ui/ending-lel khesrin.tscn"
 const MAP_SCENE = "res://scenes/game/map.tscn"

@@ -23,12 +23,7 @@ var won_games: Array = []
 func mark_won(game_name: String) -> void:
 	if not won_games.has(game_name):
 		won_games.append(game_name)
-func reset_game():
-	score = 0
-	games_won = 0
-	guess_movie = false
-	movie_questions = false
-	actor_director = false
+
 
 func add_score(game_name: String, points: int):
 	score += points
@@ -83,3 +78,18 @@ func make_all_buttons_transparent():
 			for grandchild in child.get_children():
 				if grandchild is Button:
 					make_button_transparent(grandchild)
+					
+func reset_game():
+	score = 0
+	games_won = 0
+	guess_movie = false
+	movie_questions = false
+	actor_director = false
+	won_games.clear()
+	selected_movie = {}
+	current_movie = {}
+	current_game = ""
+	current_question = null
+	last_won = false
+	last_result = ""
+	next_game = ""
