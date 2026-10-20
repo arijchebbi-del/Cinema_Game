@@ -14,7 +14,9 @@ func _ready():
 	if movie.is_empty():
 		return
 	
-	$Palette.texture = movie["color palette"]
+	$palette.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	$palette.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	$palette.texture = movie["color palette"]
 	answer = movie["title"]
 	
 	# Set timer to (40 seconds)
@@ -32,6 +34,7 @@ func _ready():
 	
 	
 	$NextButton.hide()
+	$NextButton.pressed.connect(_on_NextButton_pressed)
 
 func _process(_delta):
 	# Update timer display every frame
@@ -76,7 +79,7 @@ func check_win():
 		$NextButton.show()
 	else:
 		Global.game_lost.emit()
-		get_tree().change_scene_to_file("res://scenes/Result.tscn")
+		get_tree().change_scene_to_file("res://scenes/ui/ending-lel khesrin.tscn")
 
 func _on_timeout():
 	# Timer expired
