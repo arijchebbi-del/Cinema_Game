@@ -32,6 +32,8 @@ func _ready():
 	next_button.hide()
 
 	var movie = get_random_movie()
+	Global.current_game="plot"
+	Global.current_movie=movie
 	if movie.is_empty():
 		plot_label.text = "Failed to load movie data"
 		return
@@ -81,16 +83,17 @@ func check_win():
 	if game_over:
 		return
 	game_over = true
-	timer.stop()
-	if correct_answers >= 1:
+	$Timer.stop()
+	var won: bool
+	won = correct_answers >= 1
+	
+	if won:
 		Global.add_score("guessmovie", 5)
-		if Global.check_victory():
-			get_tree().change_scene_to_file("res://scenes/ui/eding lel rebhin.tscn")
-		else:
-				next_button.show()
-	else:
-		Global.game_lost.emit()
-		get_tree().change_scene_to_file("res://scenes/Result.tscn")
+		Global.mark_won("guessmovie")
+	Global.last_won = won
+	
+	get_tree().change_scene_to_file("res://scenes/ui/LevelResult.tscn")
+
 
 
 func _on_timeout():

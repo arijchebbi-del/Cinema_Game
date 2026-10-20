@@ -36,7 +36,8 @@ func _ready():
 	set_picture(actors[3], movie.get("cast4"))
 
 	answer = movie.get("title", "")
-
+	Global.current_game="cast"
+	Global.current_movie=movie
 	timer.start()
 	guess_input.grab_focus()
 
@@ -90,20 +91,25 @@ func _input(event):
 	var input = guess_input.text.strip_edges().to_lower()
 	if find_match(input) != "":
 		win()
-		if Global.check_victory():
-			get_tree().change_scene_to_file("res://scenes/ui/eding lel rebhin.tscn")
-		else:
-				$Button.show()
+		
 	guess_input.text = ""
 
 func win():
+	if game_over:
+		return
 	game_over = true
-	timer.stop()
-	timer_label.text = "Gagné !"
-	Global.add_score("guessmovie", 5)
-	Global.mark_won("GuessMovie")
-	guess_input.hide()
-	next_button.show()
+	$Timer.stop()
+	var won: bool
+	won = true
+	
+	if won:
+		Global.add_score("guessmovie", 5)
+		Global.mark_won("guessmovie")
+
+	Global.last_won = won
+	
+	get_tree().change_scene_to_file("res://scenes/ui/LevelResult.tscn")
+
 
 func _on_timeout():
 	if game_over:

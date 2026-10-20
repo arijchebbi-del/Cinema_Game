@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ct6ypaxnmym4j"
-path="res://.godot/imported/marion cotillard.jpg-eb311d36694bdf71dc8c5c4288d0361c.ctex"
+path="res://.godot/imported/marion cotillard.jpg-cbfe614cf401847c12962da65dafe188.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/marion cotillard.jpg"
-dest_files=["res://.godot/imported/marion cotillard.jpg-eb311d36694bdf71dc8c5c4288d0361c.ctex"]
+source_file="res://Assets/images/level 3/cast/marion cotillard.jpg"
+dest_files=["res://.godot/imported/marion cotillard.jpg-cbfe614cf401847c12962da65dafe188.ctex"]
 
 [params]
 

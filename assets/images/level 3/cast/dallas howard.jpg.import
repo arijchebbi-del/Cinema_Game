@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ryph5day2qx2"
-path="res://.godot/imported/dallas howard.jpg-b8713268c18bbfe234c991b72844cb15.ctex"
+path="res://.godot/imported/dallas howard.jpg-26a7cb9aafe01690bd18d01cb6ec98d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/dallas howard.jpg"
-dest_files=["res://.godot/imported/dallas howard.jpg-b8713268c18bbfe234c991b72844cb15.ctex"]
+source_file="res://Assets/images/level 3/cast/dallas howard.jpg"
+dest_files=["res://.godot/imported/dallas howard.jpg-26a7cb9aafe01690bd18d01cb6ec98d6.ctex"]
 
 [params]
 

@@ -18,7 +18,8 @@ func _ready():
 	$palette.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	$palette.texture = movie["color palette"]
 	answer = movie["title"]
-	
+	Global.current_game="palette"
+	Global.current_movie=movie
 	# Set timer to (40 seconds)
 	$Timer.wait_time = 40.0
 	$Timer.one_shot = true
@@ -74,15 +75,15 @@ func check_win():
 		return
 	game_over = true
 	$Timer.stop()
-	if correct_answers == 1:
+	var won: bool
+	won = correct_answers >= 1
+	
+	if won:
 		Global.add_score("guessmovie", 5)
-		if Global.check_victory():
-			get_tree().change_scene_to_file("res://scenes/ui/eding lel rebhin.tscn")
-		else:
-				$NextButton.show()
-	else:
-		Global.game_lost.emit()
-		get_tree().change_scene_to_file("res://scenes/ui/ending-lel khesrin.tscn")
+		Global.mark_won("guessmovie")
+	Global.last_won = won
+	
+	get_tree().change_scene_to_file("res://scenes/ui/LevelResult.tscn")
 
 func _on_timeout():
 	# Timer expired

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blmu4q4yqjenk"
-path="res://.godot/imported/ggggggggggggggg.png-ec38f7a1daee253171a366985a8cd339.ctex"
+path="res://.godot/imported/ggggggggggggggg.png-9ef011b7bdb4b30e974866e9259d33bd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/button/ggggggggggggggg.png"
-dest_files=["res://.godot/imported/ggggggggggggggg.png-ec38f7a1daee253171a366985a8cd339.ctex"]
+source_file="res://Assets/images/button/ggggggggggggggg.png"
+dest_files=["res://.godot/imported/ggggggggggggggg.png-9ef011b7bdb4b30e974866e9259d33bd.ctex"]
 
 [params]
 

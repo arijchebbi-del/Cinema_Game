@@ -30,6 +30,9 @@ func _ready():
 	question = movie["questions"].pick_random()
 	question_label.text = question["q"]
 	answer = question["a"]
+	Global.current_question=question
+	Global.current_game="question"
+	Global.current_movie=movie
 
 	# Timer
 	timer.wait_time = 30.0
@@ -61,19 +64,19 @@ func check_win():
 		return
 	game_over = true
 	timer.stop()
-	if correct_answers >= 1:
-		Global.add_score("moviequestions", 5)
-		if Global.check_victory():
-			get_tree().change_scene_to_file("res://scenes/ui/ending lel rebhin.tscn")
-		else:
-			next_button.show()
-	else:
-		Global.game_lost.emit()
-		get_tree().change_scene_to_file("res://scenes/ui/ending-lel khesrin.tscn")
+	var won: bool
+	won = correct_answers >= 1
 	
+	if won:
+		Global.add_score("moviequestions", 5)
+		Global.mark_won("moviequestions")
+	Global.last_won = won
+	
+	get_tree().change_scene_to_file("res://scenes/ui/LevelResult.tscn")
 
 func _on_timeout():
 	check_win()
+	
 
 func find_match(input: String) -> String:
 	if input.similarity(answer.to_lower()) >= MATCH_THRESHOLD:

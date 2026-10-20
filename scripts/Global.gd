@@ -4,6 +4,10 @@ var score: int = 0
 var games_won: int = 0
 var total_games: int = 3
 var selected_movie: Dictionary = {} #level2
+var current_movie: Dictionary = {}
+var current_game: String=""
+var current_question
+var last_won: bool
 
 
 # Track individual game wins

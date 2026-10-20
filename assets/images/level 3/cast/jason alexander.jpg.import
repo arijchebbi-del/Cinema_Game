@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc3k37v2kecth"
-path="res://.godot/imported/jason alexander.jpg-376702af40be8dbfd9d0143c626b1c3e.ctex"
+path="res://.godot/imported/jason alexander.jpg-847a401302b7402f4c794bfc3a3b3162.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/jason alexander.jpg"
-dest_files=["res://.godot/imported/jason alexander.jpg-376702af40be8dbfd9d0143c626b1c3e.ctex"]
+source_file="res://Assets/images/level 3/cast/jason alexander.jpg"
+dest_files=["res://.godot/imported/jason alexander.jpg-847a401302b7402f4c794bfc3a3b3162.ctex"]
 
 [params]
 
