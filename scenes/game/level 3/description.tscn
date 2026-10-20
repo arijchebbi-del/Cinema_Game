@@ -1,24 +1,39 @@
-[gd_scene format=3 uid="uid://ok85fqfycxlt"]
+[gd_scene load_steps=6 format=3 uid="uid://ok85fqfycxlt"]
 
-[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://assets/images/level 3/font1.png" id="1_e2hgj"]
+[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://Assets/images/level 3/font1.png" id="1_e2hgj"]
+[ext_resource type="Script" uid="uid://4o0ykulj6gu1" path="res://scripts/BadPlot.gd" id="1_u8qhd"]
+[ext_resource type="Texture2D" uid="uid://bj3065s1wdh1a" path="res://Assets/images/Level1/Buttons/nextButton.png" id="3_qh6qb"]
 
-[node name="Description" type="Node2D" unique_id=2110711056]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_brmkn"]
+bg_color = Color(0.90588236, 0.79607844, 0.7372549, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
 
-[node name="font1" type="Sprite2D" parent="." unique_id=1009758870]
-position = Vector2(575, 322)
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qh6qb"]
+bg_color = Color(0.39607844, 0.050980393, 0.105882354, 1)
+
+[node name="Description" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_u8qhd")
+
+[node name="font1" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -18.999998
+offset_top = -2.0000002
+offset_right = 1036.0669
+offset_bottom = 586.9955
 scale = Vector2(1.121256, 1.1256453)
 texture = ExtResource("1_e2hgj")
 
-[node name="Button" type="Button" parent="." unique_id=374716966]
-offset_left = 785.0
-offset_top = 479.0
-offset_right = 898.0
-offset_bottom = 545.0
-theme_override_colors/font_color = Color(0.69411767, 0.4509804, 0.03529412, 1)
-theme_override_font_sizes/font_size = 29
-text = "ENTER"
-
-[node name="LineEdit" type="LineEdit" parent="." unique_id=1265920514]
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 0
 offset_left = 249.0
 offset_top = 482.0
 offset_right = 751.0
@@ -27,10 +42,35 @@ theme_override_colors/font_color = Color(0.47843137, 0.3019608, 0.06666667, 1)
 theme_override_font_sizes/font_size = 23
 text = "I DARE YOU TO TYPE THE CORRECT ANSWER"
 
-[node name="Label" type="Label" parent="." unique_id=1641323106]
-offset_left = 247.0
-offset_top = 151.0
-offset_right = 897.0
-offset_bottom = 375.0
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 251.0
+offset_top = 169.0
+offset_right = 901.0
+offset_bottom = 393.0
+theme_override_font_sizes/font_size = 40
+autowrap_mode = 3
 
-[node name="Timer" type="Timer" parent="." unique_id=444771104]
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 776.0
+offset_top = 479.0
+offset_right = 1756.0
+offset_bottom = 919.0
+scale = Vector2(0.1625063, 0.1584588)
+theme_override_colors/font_color = Color(0.25738513, 0.14775461, 0.069636874, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_brmkn")
+icon = ExtResource("3_qh6qb")
+flat = true
+
+[node name="TimerLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 876.0
+offset_top = 43.0
+offset_right = 1047.0
+offset_bottom = 119.0
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxFlat_qh6qb")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true

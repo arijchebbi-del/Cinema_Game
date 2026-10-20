@@ -2,7 +2,7 @@ extends Control
 
 var game_over = false
 var correct_answers = 0
-const MATCH_THRESHOLD = 0.2
+const MATCH_THRESHOLD = 0.4   
 var question
 var answer : String
 

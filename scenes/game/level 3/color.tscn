@@ -1,20 +1,28 @@
-[gd_scene format=3 uid="uid://dbt1bage4sna3"]
+[gd_scene load_steps=2 format=3 uid="uid://dbt1bage4sna3"]
 
-[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://assets/images/level 3/font1.png" id="1_lkfes"]
+[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://Assets/images/level 3/font1.png" id="1_lkfes"]
 
-[node name="Color" type="Node2D" unique_id=437933483]
+[node name="Color" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 
-[node name="Baddescription" type="Sprite2D" parent="." unique_id=1289051026]
-position = Vector2(518, 286)
+[node name="Baddescription" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 518.0
+offset_top = 286.0
+offset_right = 518.0
+offset_bottom = 286.0
 texture = ExtResource("1_lkfes")
 
-[node name="GraphFrame" type="GraphFrame" parent="Baddescription" unique_id=1673390746]
+[node name="GraphFrame" type="GraphFrame" parent="Baddescription"]
+layout_mode = 0
 offset_left = -228.0
 offset_top = -169.0
 offset_right = 223.0
 offset_bottom = 87.0
 
-[node name="LineEdit" type="LineEdit" parent="." unique_id=1994252538]
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 0
 offset_left = 221.0
 offset_top = 425.0
 offset_right = 715.0
@@ -23,7 +31,8 @@ theme_override_colors/font_color = Color(0.69803923, 0.45490196, 0.03529412, 1)
 theme_override_font_sizes/font_size = 23
 text = "I DARE YOU TO TYPE THE CORRECT ANSWER"
 
-[node name="Button" type="Button" parent="." unique_id=1318849895]
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
 offset_left = 737.0
 offset_top = 431.0
 offset_right = 831.0

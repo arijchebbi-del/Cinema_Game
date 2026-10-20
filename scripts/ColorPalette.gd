@@ -5,7 +5,8 @@ var correct_answers = 0
 const MATCH_THRESHOLD = 0.75
 var answer : String
 
-@onready var palette: TextureRect = $Palette
+
+
 
 
 func _ready():
