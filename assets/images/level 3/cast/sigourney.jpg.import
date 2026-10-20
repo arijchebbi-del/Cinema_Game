@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4bt8h6wg7aw0"
-path="res://.godot/imported/sigourney.jpg-c51c6a1a4f3e6f5dd0a12794bc79c71b.ctex"
+path="res://.godot/imported/sigourney.jpg-5c4c25dc8fc9bb6ffcfe4c1f13566b69.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/sigourney.jpg"
-dest_files=["res://.godot/imported/sigourney.jpg-c51c6a1a4f3e6f5dd0a12794bc79c71b.ctex"]
+source_file="res://assets/images/level 3/cast/sigourney.jpg"
+dest_files=["res://.godot/imported/sigourney.jpg-5c4c25dc8fc9bb6ffcfe4c1f13566b69.ctex"]
 
 [params]
 

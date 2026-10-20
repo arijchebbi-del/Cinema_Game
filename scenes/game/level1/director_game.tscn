@@ -4,7 +4,6 @@
 [ext_resource type="Script" uid="uid://by4iotawnosxj" path="res://scripts/Directors.gd" id="1_mh3qk"]
 [ext_resource type="Texture2D" uid="uid://rnalcpye0nhd" path="res://assets/images/Level1/Main/bg/bg1.png" id="2_8apck"]
 [ext_resource type="Texture2D" uid="uid://c2sat5hlbbw8r" path="res://assets/images/Level1/Main/bg/bg2.png" id="3_ncih7"]
-[ext_resource type="Texture2D" uid="uid://cked81owt0pgs" path="res://assets/images/Level1/Main/bg/bg3.png" id="4_81rbm"]
 [ext_resource type="Texture2D" uid="uid://18wd7fsi6aiv" path="res://assets/images/Level1/Main/framefinal.png" id="7_jib3l"]
 [ext_resource type="Texture2D" uid="uid://bj3065s1wdh1a" path="res://assets/images/Level1/Buttons/nextButton.png" id="8_81rbm"]
 
@@ -88,15 +87,6 @@ offset_bottom = 2704.0
 rotation = -1.5694361
 scale = Vector2(0.5710533, 0.559423)
 texture = ExtResource("3_ncih7")
-
-[node name="bg3" type="TextureRect" parent="." unique_id=896738015]
-layout_mode = 0
-offset_top = 656.0
-offset_right = 1152.0
-offset_bottom = 2704.0
-rotation = -1.5694361
-scale = Vector2(0.5710533, 0.559423)
-texture = ExtResource("4_81rbm")
 
 [node name="ActorPic" type="TextureRect" parent="." unique_id=1182676826]
 layout_mode = 0
