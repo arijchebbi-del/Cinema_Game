@@ -3,6 +3,9 @@
 [ext_resource type="Texture2D" uid="uid://cdfmy7gdmwj62" path="res://assets/images/MapScene/BaseMap.jpg" id="1_3fewy"]
 [ext_resource type="Script" uid="uid://0i8vpxuhmyek" path="res://scripts/LevelsMap.gd" id="1_043wi"]
 [ext_resource type="Texture2D" uid="uid://c5gr1cdd0lpba" path="res://assets/images/MapScene/Lock.png" id="2_fodlk"]
+[ext_resource type="Texture2D" uid="uid://ko58jdo1vmhn" path="res://assets/images/MapScene/t1.png" id="4_7g61j"]
+[ext_resource type="Texture2D" uid="uid://p13h70psjgki" path="res://assets/images/MapScene/T2.png" id="5_8kpgt"]
+[ext_resource type="Texture2D" uid="uid://bnmg212yhfvu" path="res://assets/images/MapScene/tt3.png" id="6_jhmgq"]
 
 [node name="Map" type="Control" unique_id=149285052]
 layout_mode = 3
@@ -11,8 +14,9 @@ script = ExtResource("1_043wi")
 
 [node name="Background" type="TextureRect" parent="." unique_id=1736980398]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_top = -3.0
+offset_right = 1365.0
+offset_bottom = 765.0
 scale = Vector2(0.85027176, 0.8422431)
 texture = ExtResource("1_3fewy")
 
@@ -28,10 +32,10 @@ ignore_texture_size = true
 
 [node name="Lock2" type="TextureButton" parent="." unique_id=415427799]
 layout_mode = 0
-offset_left = 565.0
-offset_top = 120.0
-offset_right = 1046.0
-offset_bottom = 639.0
+offset_left = 547.99994
+offset_top = 104.99999
+offset_right = 1029.0
+offset_bottom = 624.0
 rotation = 0.11487357
 scale = Vector2(0.50896966, 0.42859218)
 texture_normal = ExtResource("2_fodlk")
@@ -39,11 +43,26 @@ ignore_texture_size = true
 
 [node name="Lock3" type="TextureButton" parent="." unique_id=767459638]
 layout_mode = 0
-offset_left = 54.0
-offset_top = 346.00003
-offset_right = 535.0
-offset_bottom = 865.0
+offset_left = 64.00001
+offset_top = 330.00003
+offset_right = 545.0
+offset_bottom = 849.0
 rotation = -0.25695264
 scale = Vector2(0.48587567, 0.4131348)
 texture_normal = ExtResource("2_fodlk")
 ignore_texture_size = true
+
+[node name="T1" type="Sprite2D" parent="." unique_id=392689385]
+position = Vector2(752, 113)
+scale = Vector2(0.7045977, 0.72988504)
+texture = ExtResource("4_7g61j")
+
+[node name="T2" type="Sprite2D" parent="." unique_id=53481017]
+position = Vector2(127.00003, 40)
+scale = Vector2(0.7045977, 0.72988504)
+texture = ExtResource("5_8kpgt")
+
+[node name="T3" type="Sprite2D" parent="." unique_id=1740790246]
+position = Vector2(135, 515)
+scale = Vector2(0.6557471, 0.61321837)
+texture = ExtResource("6_jhmgq")

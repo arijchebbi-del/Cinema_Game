@@ -29,7 +29,6 @@ scale = Vector2(1.0088675, 0.31506371)
 texture = ExtResource("1_0nvth")
 
 [node name="WinText" type="TextureRect" parent="." unique_id=314350545]
-visible = false
 layout_mode = 0
 offset_left = 338.0
 offset_top = 84.0
