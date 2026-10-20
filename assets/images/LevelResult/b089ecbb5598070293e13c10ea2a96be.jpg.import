@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dkn61t6m7verl"
-path="res://.godot/imported/TimeUp.png-9991ee673b5614ef89aaa2f87ab69b96.ctex"
+uid="uid://lg0b1byw3gp2"
+path="res://.godot/imported/b089ecbb5598070293e13c10ea2a96be.jpg-9ffec5e59e6399fb13b8a25fbbaf8f4d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/Level1/Result/TimeUp.png"
-dest_files=["res://.godot/imported/TimeUp.png-9991ee673b5614ef89aaa2f87ab69b96.ctex"]
+source_file="res://assets/images/LevelResult/b089ecbb5598070293e13c10ea2a96be.jpg"
+dest_files=["res://.godot/imported/b089ecbb5598070293e13c10ea2a96be.jpg-9ffec5e59e6399fb13b8a25fbbaf8f4d.ctex"]
 
 [params]
 
