@@ -45,8 +45,9 @@ offset_top = 480.0
 offset_right = 799.0
 offset_bottom = 553.0
 theme_override_colors/font_color = Color(0.60784316, 0.3764706, 0.043137256, 1)
+theme_override_colors/font_placeholder_color = Color(0.46666667, 0.28627452, 0.0627451, 1)
 theme_override_font_sizes/font_size = 27
-text = "I DARE YOU TO TYPE THE CORRECT MOVIE"
+placeholder_text = "I DARE YOU TO TYPE THE CORRECT MOVIE"
 
 [node name="Button" type="Button" parent="." unique_id=552989893]
 offset_left = 818.0
@@ -57,3 +58,11 @@ theme_override_colors/font_color = Color(0.5294118, 0.3254902, 0.05490196, 1)
 theme_override_colors/font_outline_color = Color(0.5294118, 0.30588236, 0.08235294, 1)
 theme_override_font_sizes/font_size = 28
 text = "ENTER"
+
+[node name="TimerLabel" type="Label" parent="." unique_id=1986340421]
+offset_left = 2.0
+offset_top = 4.0
+offset_right = 121.0
+offset_bottom = 71.0
+
+[node name="Timer" type="Timer" parent="." unique_id=1601196452]

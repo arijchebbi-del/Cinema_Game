@@ -11,18 +11,16 @@ var answer: String = ""
 @onready var actors = [$actor1, $actor2, $actor3, $actor4]
 @onready var guess_input: LineEdit = $LineEdit
 @onready var next_button: Button = $Button
-@onready var timer_label = get_node_or_null("TimerLabel")   # optional
-var timer: Timer
+@onready var timer_label: Label = $TimerLabel
+@onready var timer: Timer = $Timer
 
 func _ready():
 	Global.make_all_buttons_transparent()
 
-	# Timer created in code, so you don't need a Timer node
-	timer = Timer.new()
+	# Configure the Timer node from the scene
 	timer.one_shot = true
 	timer.wait_time = TIME_LIMIT
 	timer.timeout.connect(_on_timeout)
-	add_child(timer)
 
 	next_button.hide()
 	next_button.pressed.connect(_on_NextButton_pressed)
@@ -32,27 +30,27 @@ func _ready():
 		push_error("No movie data found")
 		return
 
-	var keys = ["cast1", "cast2", "cast3", "cast4"]
-	for i in range(4):
-		set_picture(actors[i], movie[keys[i]])
+	set_picture(actors[0], movie.get("cast1"))
+	set_picture(actors[1], movie.get("cast2"))
+	set_picture(actors[2], movie.get("cast3"))
+	set_picture(actors[3], movie.get("cast4"))
 
-	answer = movie["title"]
+	answer = movie.get("title", "")
 
 	timer.start()
-	if timer_label:
-		timer_label.text = "Time: %d" % int(TIME_LIMIT)
 	guess_input.grab_focus()
 
 func set_picture(node, tex: Texture2D):
-	# works whether actor1..4 are TextureRect or TextureButton
+	if tex == null:
+		return
 	if node is TextureButton:
 		node.texture_normal = tex
 	elif node is TextureRect or node is Sprite2D:
 		node.texture = tex
 
 func _process(_delta):
-	if timer_label and not timer.is_stopped():
-		timer_label.text = "Time: %d" % ceil(timer.time_left)
+	if timer and not timer.is_stopped() and not game_over:
+		timer_label.text = "Temps: %d s" % int(ceil(timer.time_left))
 
 func get_random_movie() -> Dictionary:
 	var file = FileAccess.open("res://Data/Cast.json", FileAccess.READ)
@@ -66,7 +64,6 @@ func get_random_movie() -> Dictionary:
 
 	var entry = movies.pick_random()
 	
-	# Extract image paths from the nested array of objects
 	var cast_paths = {}
 	if entry.has("cast") and entry["cast"] is Array:
 		for item in entry["cast"]:
@@ -82,7 +79,7 @@ func get_random_movie() -> Dictionary:
 	}
 
 func load_pic(path: String) -> Texture2D:
-	if ResourceLoader.exists(path):
+	if path != "" and ResourceLoader.exists(path):
 		return load(path)
 	push_warning("Picture not found: " + path)
 	return null
@@ -98,6 +95,7 @@ func _input(event):
 func win():
 	game_over = true
 	timer.stop()
+	timer_label.text = "Gagné !"
 	Global.add_score("guessmovie", 5)
 	Global.mark_won("GuessMovie")
 	guess_input.hide()
