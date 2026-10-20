@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2xf3cfunyn7e"
-path="res://.godot/imported/budapest 2.jpg-d2b2e324e4c57abbf7aeddabd772f133.ctex"
+path="res://.godot/imported/budapest 2.jpg-0fa7d182e4ea138e7fe64b2c8927cb0e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/color/budapest 2.jpg"
-dest_files=["res://.godot/imported/budapest 2.jpg-d2b2e324e4c57abbf7aeddabd772f133.ctex"]
+source_file="res://Assets/images/level 3/color/budapest 2.jpg"
+dest_files=["res://.godot/imported/budapest 2.jpg-0fa7d182e4ea138e7fe64b2c8927cb0e.ctex"]
 
 [params]
 

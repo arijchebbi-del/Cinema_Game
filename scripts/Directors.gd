@@ -106,6 +106,10 @@ func _input(event):
 		update_background()
 		if correct_answers >= WIN_TARGET:
 			win()
+			if Global.check_victory():
+				get_tree().change_scene_to_file("res://scenes/ui/eding lel rebhin.tscn")
+			else:
+				$NextButton.show()
 	$GuessInput.text = ""
 
 func win():

@@ -76,7 +76,10 @@ func check_win():
 	$Timer.stop()
 	if correct_answers == 1:
 		Global.add_score("guessmovie", 5)
-		$NextButton.show()
+		if Global.check_victory():
+			get_tree().change_scene_to_file("res://scenes/ui/eding lel rebhin.tscn")
+		else:
+				$NextButton.show()
 	else:
 		Global.game_lost.emit()
 		get_tree().change_scene_to_file("res://scenes/ui/ending-lel khesrin.tscn")

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc4tfnhfl65ug"
-path="res://.godot/imported/owen wilson.jpg-06019b1ac730fdbb8a042d0d89eea9b7.ctex"
+path="res://.godot/imported/owen wilson.jpg-99ec99218cd115adcb37541a8d362a20.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/images/level 3/cast/owen wilson.jpg"
-dest_files=["res://.godot/imported/owen wilson.jpg-06019b1ac730fdbb8a042d0d89eea9b7.ctex"]
+source_file="res://Assets/images/level 3/cast/owen wilson.jpg"
+dest_files=["res://.godot/imported/owen wilson.jpg-99ec99218cd115adcb37541a8d362a20.ctex"]
 
 [params]
 
