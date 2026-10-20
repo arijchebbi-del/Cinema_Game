@@ -90,6 +90,10 @@ func _input(event):
 	var input = guess_input.text.strip_edges().to_lower()
 	if find_match(input) != "":
 		win()
+		if Global.check_victory():
+			get_tree().change_scene_to_file("res://scenes/ui/eding lel rebhin.tscn")
+		else:
+				$Button.show()
 	guess_input.text = ""
 
 func win():

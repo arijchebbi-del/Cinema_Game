@@ -1,45 +1,45 @@
-[gd_scene format=3 uid="uid://eqwjirufdply"]
+[gd_scene load_steps=3 format=3 uid="uid://eqwjirufdply"]
 
 [ext_resource type="Script" uid="uid://c387qiv3b3vrx" path="res://scripts/Cast.gd" id="1_1db3g"]
-[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://assets/images/level 3/font1.png" id="1_w8pms"]
+[ext_resource type="Texture2D" uid="uid://xc04h56wrgh" path="res://Assets/images/level 3/font1.png" id="1_w8pms"]
 
-[node name="Cast" type="Node2D" unique_id=929036792]
+[node name="Cast" type="Node2D"]
 script = ExtResource("1_1db3g")
 
-[node name="font1" type="Sprite2D" parent="." unique_id=389334080]
+[node name="font1" type="Sprite2D" parent="."]
 position = Vector2(576.25, 324.25)
 scale = Vector2(1.1125604, 1.1213425)
 texture = ExtResource("1_w8pms")
 
-[node name="actor1" type="TextureRect" parent="." unique_id=402833670]
+[node name="actor1" type="TextureRect" parent="."]
 offset_left = 365.0
 offset_top = 79.0
 offset_right = 503.0
 offset_bottom = 235.0
 expand_mode = 1
 
-[node name="actor2" type="TextureRect" parent="." unique_id=511478058]
+[node name="actor2" type="TextureRect" parent="."]
 offset_left = 661.0
 offset_top = 80.0
 offset_right = 809.0
 offset_bottom = 242.0
 expand_mode = 1
 
-[node name="actor3" type="TextureRect" parent="." unique_id=867499906]
+[node name="actor3" type="TextureRect" parent="."]
 offset_left = 360.0
 offset_top = 262.0
 offset_right = 501.0
 offset_bottom = 423.0
 expand_mode = 1
 
-[node name="actor4" type="TextureRect" parent="." unique_id=2031847462]
+[node name="actor4" type="TextureRect" parent="."]
 offset_left = 658.0
 offset_top = 265.0
 offset_right = 806.0
 offset_bottom = 426.0
 expand_mode = 1
 
-[node name="LineEdit" type="LineEdit" parent="." unique_id=85034382]
+[node name="LineEdit" type="LineEdit" parent="."]
 offset_left = 249.0
 offset_top = 480.0
 offset_right = 799.0
@@ -49,7 +49,7 @@ theme_override_colors/font_placeholder_color = Color(0.46666667, 0.28627452, 0.0
 theme_override_font_sizes/font_size = 27
 placeholder_text = "I DARE YOU TO TYPE THE CORRECT MOVIE"
 
-[node name="Button" type="Button" parent="." unique_id=552989893]
+[node name="Button" type="Button" parent="."]
 offset_left = 818.0
 offset_top = 481.0
 offset_right = 924.0
@@ -59,10 +59,10 @@ theme_override_colors/font_outline_color = Color(0.5294118, 0.30588236, 0.082352
 theme_override_font_sizes/font_size = 28
 text = "ENTER"
 
-[node name="TimerLabel" type="Label" parent="." unique_id=1986340421]
+[node name="TimerLabel" type="Label" parent="."]
 offset_left = 2.0
 offset_top = 4.0
 offset_right = 121.0
 offset_bottom = 71.0
 
-[node name="Timer" type="Timer" parent="." unique_id=1601196452]
+[node name="Timer" type="Timer" parent="."]
