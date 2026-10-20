@@ -1,6 +1,34 @@
 [
 	{
-		"title":"",
-		"color palette":""
+		"title": "lalaland",
+		"color palette": "res://Assets/images/level 3/color/lalaland 1.jpg"
+	},
+	{
+		"title": "the grand Budapest hotel",
+		"color palette": "res://Assets/images/level 3/color/budapest 1.jpg"
+	},
+	{
+		"title": "green book",
+		"color palette": "res://Assets/images/level 3/color/green book 1.jpg"
+	},
+	{
+		"title": "corpse bride",
+		"color palette": "res://Assets/images/level 3/color/corpse bride 1.jpg"
+	},
+	{
+		"title": "eternal sunshine of the spotless mind",
+		"color palette": "res://Assets/images/level 3/color/eternal 1.jpg"
+	},
+	{
+		"title": "blue velvet",
+		"color palette": "res://Assets/images/level 3/color/blue velvet 1.jpg"
+	},
+	{
+		"title": "in the mood for love",
+		"color palette": "res://Assets/images/level 3/color/love 1.jpg"
+	},
+	{
+		"title": "500 days of summer",
+		"color palette": "res://Assets/images/level 3/color/summer 1.jpg"
 	}
 ]

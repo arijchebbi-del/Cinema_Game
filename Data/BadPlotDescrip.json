@@ -1,6 +1,34 @@
 [
 	{
-		"title":"",
-		"plot descrip":""
+		"title": "requiem for a dream",
+		"plot descrip": "four people chase happiness and end up speedrunning their own downfall"
+	},
+	{
+		"title": "eyes wide shut",
+		"plot descrip": "a man spends a weird night out after having a conversation he should've never had with his wife"
+	},
+	{
+		"title": "bones and all",
+		"plot descrip": "a girl meets a boy they fall in love and their relationship has some serious dietary restrictions"
+	},
+	{
+		"title": "call me by your name",
+		"plot descrip": "a summer, a confusing situationship and a fruit thzt will never be the same"
+	},
+	{
+		"title": "memento",
+		"plot descrip": "a man turns his body into a notebook because his brain refuses to save the files"
+	},
+	{
+		"title": "the machinist",
+		"plot descrip": "a guy hasnt slept in a year and somehow thinks getting skinnier will solve the problem"
+	},
+	{
+		"title": "love and other drugs",
+		"plot descrip": "a pharmaceutical salesman discovers that flirting is easier than reading the side effects"
+	},
+	{
+		"title": "confessions of a shopaholic",
+		"plot descrip": "a woman tries to fix her financial prolems by buying more things and lying about it to everyone"
 	}
 ]
