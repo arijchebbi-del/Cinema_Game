@@ -115,7 +115,7 @@ func _on_timeout():
 	if game_over:
 		return
 	game_over = true
-	get_tree().change_scene_to_file(ENDING_SCENE)
+	get_tree().change_scene_to_file("res://scenes/ui/LevelResult.tscn")
 
 func find_match(input: String) -> String:
 	if input.similarity(answer.to_lower()) >= MATCH_THRESHOLD:
