@@ -104,7 +104,7 @@ func win():
 	
 	if won:
 		Global.add_score("guessmovie", 5)
-		Global.mark_won("guessmovie")
+		Global.mark_won("GuessMovie")
 
 	Global.last_won = won
 	

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcjic1nhyj833"
-path="res://.godot/imported/de niro.jpg-3ea1394db187417bdf03f28ff891800d.ctex"
+uid="uid://dc4tfnhfl65ug"
+path="res://.godot/imported/owen wilson.jpg-8010fd7d1d82e110e1dd37f2357611b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/de niro.jpg"
-dest_files=["res://.godot/imported/de niro.jpg-3ea1394db187417bdf03f28ff891800d.ctex"]
+source_file="res://Assets/cast/owen wilson.jpg"
+dest_files=["res://.godot/imported/owen wilson.jpg-8010fd7d1d82e110e1dd37f2357611b0.ctex"]
 
 [params]
 

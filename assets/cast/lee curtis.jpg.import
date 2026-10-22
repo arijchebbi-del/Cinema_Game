@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdg0qblq6xxiq"
-path="res://.godot/imported/christian bale.jpg-54a180c560770bec455d0f63050aab92.ctex"
+uid="uid://dtl5pwwdv0fmv"
+path="res://.godot/imported/lee curtis.jpg-05e0b7bd85c165b4e923a3c04d74bec4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/christian bale.jpg"
-dest_files=["res://.godot/imported/christian bale.jpg-54a180c560770bec455d0f63050aab92.ctex"]
+source_file="res://Assets/cast/lee curtis.jpg"
+dest_files=["res://.godot/imported/lee curtis.jpg-05e0b7bd85c165b4e923a3c04d74bec4.ctex"]
 
 [params]
 

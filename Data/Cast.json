@@ -3,16 +3,16 @@
 		"title": "red lights",
 		"cast": [
 			{
-				"cast1": "res://Assets/images/level 3/cast/de niro.jpg"
+				"cast1": "res://Assets/cast/de niro.jpg"
 			},
 			{
-				"cast2": "res://Assets/images/level 3/cast/sigourney.jpg"
+				"cast2": "res://Assets/cast/sigourney.jpg"
 			},
 			{
-				"cast3": "res://Assets/images/level 3/cast/cillian murphy.jpg"
+				"cast3": "res://Assets/cast/cillian murphy.jpg"
 			},
 			{
-				"cast4": "res://Assets/images/level 3/cast/elizabeth olsen.jpg"
+				"cast4": "res://Assets/cast/elizabeth olsen.jpg"
 			}
 		]
 	},
@@ -20,16 +20,16 @@
 		"title": "the help",
 		"cast": [
 			{
-				"cast1": "res://Assets/images/level 3/cast/viola davis.jpg"
+				"cast1": "res://Assets/cast/viola davis.jpg"
 			},
 			{
-				"cast2": "res://Assets/images/level 3/cast/emma stone.jpg"
+				"cast2": "res://Assets/cast/emma stone.jpg"
 			},
 			{
-				"cast3": "res://Assets/images/level 3/cast/octavia spencer.jpg"
+				"cast3": "res://Assets/cast/octavia spencer.jpg"
 			},
 			{
-				"cast4": "res://Assets/images/level 3/cast/dallas howard.jpg"
+				"cast4": "res://Assets/cast/dallas howard.jpg"
 			}
 		]
 	},
@@ -37,16 +37,16 @@
 		"title": "the darjeeling limited",
 		"cast": [
 			{
-				"cast1": "res://Assets/images/level 3/cast/owen wilson.jpg"
+				"cast1": "res://Assets/cast/owen wilson.jpg"
 			},
 			{
-				"cast2": "res://Assets/images/level 3/cast/adrian brody.jpg"
+				"cast2": "res://Assets/cast/adrian brody.jpg"
 			},
 			{
-				"cast3": "res://Assets/images/level 3/cast/schwartzman.jpg"
+				"cast3": "res://Assets/cast/schwartzman.jpg"
 			},
 			{
-				"cast4": "res://Assets/images/level 3/cast/amara karan.jpg"
+				"cast4": "res://Assets/cast/amara karan.jpg"
 			}
 		]
 	},
@@ -54,16 +54,16 @@
 		"title": "watching the detectives",
 		"cast": [
 			{
-				"cast1": "res://Assets/images/level 3/cast/cillian murphy.jpg"
+				"cast1": "res://Assets/cast/cillian murphy.jpg"
 			},
 			{
-				"cast2": "res://Assets/images/level 3/cast/lucy liu.jpg"
+				"cast2": "res://Assets/cast/lucy liu.jpg"
 			},
 			{
-				"cast3": "res://Assets/images/level 3/cast/sudeikis.jpg"
+				"cast3": "res://Assets/cast/sudeikis.jpg"
 			},
 			{
-				"cast4": "res://Assets/images/level 3/cast/michael panes.jpg"
+				"cast4": "res://Assets/cast/michael panes.jpg"
 			}
 		]
 	},
@@ -71,16 +71,16 @@
 		"title": "pretty woman",
 		"cast": [
 			{
-				"cast1": "res://Assets/images/level 3/cast/julia roberts.jpg"
+				"cast1": "res://Assets/cast/julia roberts.jpg"
 			},
 			{
-				"cast2": "res://Assets/images/level 3/cast/richard gere.jpg"
+				"cast2": "res://Assets/cast/richard gere.jpg"
 			},
 			{
-				"cast3": "res://Assets/images/level 3/cast/jason alexander.jpg "
+				"cast3": "res://Assets/cast/jason alexander.jpg "
 			},
 			{
-				"cast4": "res://Assets/images/level 3/cast/hector elizondo.jpg"
+				"cast4": "res://Assets/cast/hector elizondo.jpg"
 			}
 		]
 	},
@@ -88,16 +88,16 @@
 		"title": "public enemies",
 		"cast": [
 			{
-				"cast1": "res://Assets/images/level 3/cast/christian bale.jpg"
+				"cast1": "res://Assets/cast/christian bale.jpg"
 			},
 			{
-				"cast2": "res://Assets/images/level 3/cast/jason clarke.jpg"
+				"cast2": "res://Assets/cast/jason clarke.jpg"
 			},
 			{
-				"cast3": "res://Assets/images/level 3/cast/marion cotillard.jpg"
+				"cast3": "res://Assets/cast/marion cotillard.jpg"
 			},
 			{
-				"cast4": "res://Assets/images/level 3/cast/johnny depp.jpg"
+				"cast4": "res://Assets/cast/johnny depp.jpg"
 			}
 		]
 	},
@@ -105,16 +105,16 @@
 		"title": "my girl",
 		"cast": [
 			{
-				"cast1": "res://Assets/images/level 3/cast/anna chlumsky.jpg"
+				"cast1": "res://Assets/cast/anna chlumsky.jpg"
 			},
 			{
-				"cast2": "res://Assets/images/level 3/cast/macualey culkin.jpg"
+				"cast2": "res://Assets/cast/macualey culkin.jpg"
 			},
 			{
-				"cast3": "res://Assets/images/level 3/cast/Dan Aykroyd.jpg"
+				"cast3": "res://Assets/cast/Dan Aykroyd.jpg"
 			},
 			{
-				"cast4": "res://Assets/images/level 3/cast/lee curtis.jpg"
+				"cast4": "res://Assets/cast/lee curtis.jpg"
 			}
 		]
 	}

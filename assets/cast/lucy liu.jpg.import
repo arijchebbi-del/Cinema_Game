@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ct6ypaxnmym4j"
-path="res://.godot/imported/marion cotillard.jpg-cbfe614cf401847c12962da65dafe188.ctex"
+uid="uid://bscfae4vdhkq7"
+path="res://.godot/imported/lucy liu.jpg-722411cf06deb84674abd674097d1b99.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/marion cotillard.jpg"
-dest_files=["res://.godot/imported/marion cotillard.jpg-cbfe614cf401847c12962da65dafe188.ctex"]
+source_file="res://Assets/cast/lucy liu.jpg"
+dest_files=["res://.godot/imported/lucy liu.jpg-722411cf06deb84674abd674097d1b99.ctex"]
 
 [params]
 

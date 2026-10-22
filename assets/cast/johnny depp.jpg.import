@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ryph5day2qx2"
-path="res://.godot/imported/dallas howard.jpg-26a7cb9aafe01690bd18d01cb6ec98d6.ctex"
+uid="uid://ckag6w2tutcx"
+path="res://.godot/imported/johnny depp.jpg-8cbc8bd7587e3103f836afa9229d97da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/dallas howard.jpg"
-dest_files=["res://.godot/imported/dallas howard.jpg-26a7cb9aafe01690bd18d01cb6ec98d6.ctex"]
+source_file="res://Assets/cast/johnny depp.jpg"
+dest_files=["res://.godot/imported/johnny depp.jpg-8cbc8bd7587e3103f836afa9229d97da.ctex"]
 
 [params]
 

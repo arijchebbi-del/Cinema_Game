@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d053sux4bt2x8"
-path="res://.godot/imported/michael panes.jpg-d5d2e89bb06c5d3e65057f9061aaac32.ctex"
+uid="uid://cndvkhruucby7"
+path="res://.godot/imported/octavia spencer.jpg-7fd6fcd55d99daf8ef2cbb6de8e17754.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/michael panes.jpg"
-dest_files=["res://.godot/imported/michael panes.jpg-d5d2e89bb06c5d3e65057f9061aaac32.ctex"]
+source_file="res://Assets/cast/octavia spencer.jpg"
+dest_files=["res://.godot/imported/octavia spencer.jpg-7fd6fcd55d99daf8ef2cbb6de8e17754.ctex"]
 
 [params]
 

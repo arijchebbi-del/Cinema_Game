@@ -11,9 +11,9 @@ var last_won: bool
 
 
 # Track individual game wins
-var guess_movie: bool = false
-var movie_questions: bool = false
-var actor_director: bool = false
+var GuessMovie: bool = false
+var MovieQuestions: bool = false
+var ActorDirector: bool = false
 var last_result: String = ""
 signal game_won(game_name: String, points: int)
 signal game_lost()
@@ -30,20 +30,20 @@ func add_score(game_name: String, points: int):
 	games_won += 1
 	match game_name.to_lower():
 		"guessmovie":
-			guess_movie = true
+			GuessMovie = true
 		"moviequestions":
-			movie_questions = true
+			MovieQuestions = true
 		"actordirector":
-			actor_director = true
+			ActorDirector = true
 	
 	game_won.emit(game_name, points)
 	print("Game Won: ", game_name, " | Total Score: ", score, "/15 (", games_won, "/", total_games, " games won)")
 
 func is_game_won(game_name: String) -> bool:
 	match game_name.to_lower():
-		"guessmovie": return guess_movie
-		"moviequestions": return movie_questions
-		"actordirector": return actor_director
+		"guessmovie": return GuessMovie
+		"moviequestions": return MovieQuestions
+		"actordirector": return ActorDirector
 	return false
 
 func check_victory() -> bool:
@@ -82,9 +82,9 @@ func make_all_buttons_transparent():
 func reset_game():
 	score = 0
 	games_won = 0
-	guess_movie = false
-	movie_questions = false
-	actor_director = false
+	GuessMovie = false
+	MovieQuestions = false
+	ActorDirector = false
 	won_games.clear()
 	selected_movie = {}
 	current_movie = {}

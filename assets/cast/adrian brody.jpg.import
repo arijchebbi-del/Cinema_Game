@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4g7pup23gm6k"
-path="res://.godot/imported/richard gere.jpg-85f11d4631a0b10cc6c916d618542f85.ctex"
+uid="uid://gquny0gmi7ma"
+path="res://.godot/imported/adrian brody.jpg-90bc2ab3688c637d7785133a15cc8f2f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/richard gere.jpg"
-dest_files=["res://.godot/imported/richard gere.jpg-85f11d4631a0b10cc6c916d618542f85.ctex"]
+source_file="res://Assets/cast/adrian brody.jpg"
+dest_files=["res://.godot/imported/adrian brody.jpg-90bc2ab3688c637d7785133a15cc8f2f.ctex"]
 
 [params]
 

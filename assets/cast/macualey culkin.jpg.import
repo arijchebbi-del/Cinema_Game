@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bscfae4vdhkq7"
-path="res://.godot/imported/lucy liu.jpg-4607bc5def6f9da6066bee2ff41de649.ctex"
+uid="uid://lqsl7tk1rkkn"
+path="res://.godot/imported/macualey culkin.jpg-fbd15b755371e413563cb4ca6481ce07.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/lucy liu.jpg"
-dest_files=["res://.godot/imported/lucy liu.jpg-4607bc5def6f9da6066bee2ff41de649.ctex"]
+source_file="res://Assets/cast/macualey culkin.jpg"
+dest_files=["res://.godot/imported/macualey culkin.jpg-fbd15b755371e413563cb4ca6481ce07.ctex"]
 
 [params]
 

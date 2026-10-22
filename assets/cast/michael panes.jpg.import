@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dc4tfnhfl65ug"
-path="res://.godot/imported/owen wilson.jpg-99ec99218cd115adcb37541a8d362a20.ctex"
+uid="uid://d053sux4bt2x8"
+path="res://.godot/imported/michael panes.jpg-997d17c08995eb10b131c5a094f95c45.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/owen wilson.jpg"
-dest_files=["res://.godot/imported/owen wilson.jpg-99ec99218cd115adcb37541a8d362a20.ctex"]
+source_file="res://Assets/cast/michael panes.jpg"
+dest_files=["res://.godot/imported/michael panes.jpg-997d17c08995eb10b131c5a094f95c45.ctex"]
 
 [params]
 

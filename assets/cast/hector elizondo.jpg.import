@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4bt8h6wg7aw0"
-path="res://.godot/imported/sigourney.jpg-c51c6a1a4f3e6f5dd0a12794bc79c71b.ctex"
+uid="uid://mc6fbix4opqr"
+path="res://.godot/imported/hector elizondo.jpg-0a159211c7518c300d7202b8b0d28411.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/sigourney.jpg"
-dest_files=["res://.godot/imported/sigourney.jpg-c51c6a1a4f3e6f5dd0a12794bc79c71b.ctex"]
+source_file="res://Assets/cast/hector elizondo.jpg"
+dest_files=["res://.godot/imported/hector elizondo.jpg-0a159211c7518c300d7202b8b0d28411.ctex"]
 
 [params]
 

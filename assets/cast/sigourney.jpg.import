@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dtl5pwwdv0fmv"
-path="res://.godot/imported/lee curtis.jpg-4654f6dcdc3b9d224f853070047d2885.ctex"
+uid="uid://d4bt8h6wg7aw0"
+path="res://.godot/imported/sigourney.jpg-193411fddad13d34fd5f45c884f27e4c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/lee curtis.jpg"
-dest_files=["res://.godot/imported/lee curtis.jpg-4654f6dcdc3b9d224f853070047d2885.ctex"]
+source_file="res://Assets/cast/sigourney.jpg"
+dest_files=["res://.godot/imported/sigourney.jpg-193411fddad13d34fd5f45c884f27e4c.ctex"]
 
 [params]
 

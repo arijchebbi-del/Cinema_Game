@@ -26,6 +26,8 @@ Global="*res://scripts/Global.gd"
 
 [display]
 
+window/size/mode=3
+window/size/initial_position_type=3
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 

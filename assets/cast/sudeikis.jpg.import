@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jyvvb4hk22wf"
-path="res://.godot/imported/viola davis.jpg-a2fe2b9647e89d99c339c1bf6ce021d1.ctex"
+uid="uid://dlvbn4rw0i13b"
+path="res://.godot/imported/sudeikis.jpg-64328077f66a6837c15805caacf49c5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/viola davis.jpg"
-dest_files=["res://.godot/imported/viola davis.jpg-a2fe2b9647e89d99c339c1bf6ce021d1.ctex"]
+source_file="res://Assets/cast/sudeikis.jpg"
+dest_files=["res://.godot/imported/sudeikis.jpg-64328077f66a6837c15805caacf49c5f.ctex"]
 
 [params]
 

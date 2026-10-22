@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cndvkhruucby7"
-path="res://.godot/imported/octavia spencer.jpg-3b1eb0199e74eac2317ba73b53d88357.ctex"
+uid="uid://beu10aen8urec"
+path="res://.godot/imported/anna chlumsky.jpg-1cc56fc5b2a3145280832d4b27ea89dc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/octavia spencer.jpg"
-dest_files=["res://.godot/imported/octavia spencer.jpg-3b1eb0199e74eac2317ba73b53d88357.ctex"]
+source_file="res://Assets/cast/anna chlumsky.jpg"
+dest_files=["res://.godot/imported/anna chlumsky.jpg-1cc56fc5b2a3145280832d4b27ea89dc.ctex"]
 
 [params]
 

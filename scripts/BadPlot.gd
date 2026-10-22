@@ -89,7 +89,7 @@ func check_win():
 	
 	if won:
 		Global.add_score("guessmovie", 5)
-		Global.mark_won("guessmovie")
+		Global.mark_won("GuessMovie")
 	Global.last_won = won
 	
 	get_tree().change_scene_to_file("res://scenes/ui/LevelResult.tscn")

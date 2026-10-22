@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ckag6w2tutcx"
-path="res://.godot/imported/johnny depp.jpg-c049999470b257f43994067774c0bdd8.ctex"
+uid="uid://bt4u6ryf37fnd"
+path="res://.godot/imported/amara karan.jpg-9b4bbc70159190968bc361883e3de071.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/johnny depp.jpg"
-dest_files=["res://.godot/imported/johnny depp.jpg-c049999470b257f43994067774c0bdd8.ctex"]
+source_file="res://Assets/cast/amara karan.jpg"
+dest_files=["res://.godot/imported/amara karan.jpg-9b4bbc70159190968bc361883e3de071.ctex"]
 
 [params]
 

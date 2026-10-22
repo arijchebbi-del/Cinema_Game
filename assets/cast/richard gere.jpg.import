@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lqsl7tk1rkkn"
-path="res://.godot/imported/macualey culkin.jpg-00ac7f6adc9b9151d8130d8fc1a59832.ctex"
+uid="uid://b4g7pup23gm6k"
+path="res://.godot/imported/richard gere.jpg-2e2d006fc2941931586cb4fbc79ac714.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/macualey culkin.jpg"
-dest_files=["res://.godot/imported/macualey culkin.jpg-00ac7f6adc9b9151d8130d8fc1a59832.ctex"]
+source_file="res://Assets/cast/richard gere.jpg"
+dest_files=["res://.godot/imported/richard gere.jpg-2e2d006fc2941931586cb4fbc79ac714.ctex"]
 
 [params]
 

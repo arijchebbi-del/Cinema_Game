@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlvbn4rw0i13b"
-path="res://.godot/imported/sudeikis.jpg-2adca29b9a05e0756efc111c6d5161b4.ctex"
+uid="uid://cmt01a15bhokk"
+path="res://.godot/imported/elizabeth olsen.jpg-818f50156f0c8abd212563bef5b79d19.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/sudeikis.jpg"
-dest_files=["res://.godot/imported/sudeikis.jpg-2adca29b9a05e0756efc111c6d5161b4.ctex"]
+source_file="res://Assets/cast/elizabeth olsen.jpg"
+dest_files=["res://.godot/imported/elizabeth olsen.jpg-818f50156f0c8abd212563bef5b79d19.ctex"]
 
 [params]
 

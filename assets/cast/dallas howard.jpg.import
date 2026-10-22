@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2jkpo4rpyx3j"
-path="res://.godot/imported/julia roberts.jpg-bd536b24bf08070e29366f1e3160a1d5.ctex"
+uid="uid://ryph5day2qx2"
+path="res://.godot/imported/dallas howard.jpg-863ce0117f85d7a86d6c8f776d847761.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/julia roberts.jpg"
-dest_files=["res://.godot/imported/julia roberts.jpg-bd536b24bf08070e29366f1e3160a1d5.ctex"]
+source_file="res://Assets/cast/dallas howard.jpg"
+dest_files=["res://.godot/imported/dallas howard.jpg-863ce0117f85d7a86d6c8f776d847761.ctex"]
 
 [params]
 

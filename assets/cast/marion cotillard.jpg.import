@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://beu10aen8urec"
-path="res://.godot/imported/anna chlumsky.jpg-82dbbcb24d2a96334b90c5a7b6ac99d1.ctex"
+uid="uid://ct6ypaxnmym4j"
+path="res://.godot/imported/marion cotillard.jpg-3ce9687baf1bf30c0887007e639ee7e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/images/level 3/cast/anna chlumsky.jpg"
-dest_files=["res://.godot/imported/anna chlumsky.jpg-82dbbcb24d2a96334b90c5a7b6ac99d1.ctex"]
+source_file="res://Assets/cast/marion cotillard.jpg"
+dest_files=["res://.godot/imported/marion cotillard.jpg-3ce9687baf1bf30c0887007e639ee7e7.ctex"]
 
 [params]
 
